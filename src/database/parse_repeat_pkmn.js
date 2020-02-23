@@ -1,9 +1,6 @@
 const pokedex = require('./pokedex').Pokedex;
-
-const pg = require('pg');
 const fs = require('fs');
 
-var conString = "postgres://postgres:cocopansa@localhost:5432/pokedex";
 let newList = []; 
 
 for(let key in pokedex){
