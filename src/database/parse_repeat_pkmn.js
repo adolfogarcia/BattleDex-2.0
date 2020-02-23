@@ -5,7 +5,7 @@ let newList = [];
 
 for(let key in pokedex){
     let result = newList.filter(pkmn =>
-       pokedex[key].num === pkmn.num
+       pokedex[key].num === pkmn.number
     )
 
     if(result.length === 0){
@@ -26,6 +26,8 @@ for(let key in pokedex){
         newList.push(newPkmn)
     }
 }
+
+console.log(newList.length)
 
 var util = require('util');
 

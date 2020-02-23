@@ -36,18 +36,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Grass' ]
 }, 
 {
-  number: 3,
-  name: 'Venusaur-Mega',
-  types: [ 'Grass', 'Poison' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 80, atk: 100, def: 123, spa: 122, spd: 120, spe: 80 },
-  abilities: { '0': 'Thick Fat' },
-  height: 2.4,
-  weight: 155.5,
-  color: 'Green',
-  eggGroups: [ 'Monster', 'Grass' ]
-}, 
-{
   number: 4,
   name: 'Charmander',
   types: [ 'Fire' ],
@@ -80,42 +68,6 @@ exports.pokedex = [
   abilities: { '0': 'Blaze', H: 'Solar Power' },
   height: 1.7,
   weight: 90.5,
-  color: 'Red',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
-  number: 6,
-  name: 'Charizard-Mega-X',
-  types: [ 'Fire', 'Dragon' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 78, atk: 130, def: 111, spa: 130, spd: 85, spe: 100 },
-  abilities: { '0': 'Tough Claws' },
-  height: 1.7,
-  weight: 110.5,
-  color: 'Black',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
-  number: 6,
-  name: 'Charizard-Mega-Y',
-  types: [ 'Fire', 'Flying' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 78, atk: 104, def: 78, spa: 159, spd: 115, spe: 100 },
-  abilities: { '0': 'Drought' },
-  height: 1.7,
-  weight: 100.5,
-  color: 'Red',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
-  number: 6,
-  name: 'Charizard-Gmax',
-  types: [ 'Fire', 'Flying' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100 },
-  abilities: { '0': 'Blaze', H: 'Solar Power' },
-  height: 28,
-  weight: 0,
   color: 'Red',
   eggGroups: [ 'Monster', 'Dragon' ]
 }, 
@@ -156,18 +108,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Water 1' ]
 }, 
 {
-  number: 9,
-  name: 'Blastoise-Mega',
-  types: [ 'Water' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 79, atk: 103, def: 120, spa: 135, spd: 115, spe: 78 },
-  abilities: { '0': 'Mega Launcher' },
-  height: 1.6,
-  weight: 101.1,
-  color: 'Blue',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
   number: 10,
   name: 'Caterpie',
   types: [ 'Bug' ],
@@ -200,18 +140,6 @@ exports.pokedex = [
   abilities: { '0': 'Compound Eyes', H: 'Tinted Lens' },
   height: 1.1,
   weight: 32,
-  color: 'White',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 12,
-  name: 'Butterfree-Gmax',
-  types: [ 'Bug', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 45, def: 50, spa: 90, spd: 80, spe: 70 },
-  abilities: { '0': 'Compound Eyes', H: 'Tinted Lens' },
-  height: 17,
-  weight: 0,
   color: 'White',
   eggGroups: [ 'Bug' ]
 }, 
@@ -252,18 +180,6 @@ exports.pokedex = [
   eggGroups: [ 'Bug' ]
 }, 
 {
-  number: 15,
-  name: 'Beedrill-Mega',
-  types: [ 'Bug', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 150, def: 40, spa: 15, spd: 80, spe: 145 },
-  abilities: { '0': 'Adaptability' },
-  height: 1.4,
-  weight: 40.5,
-  color: 'Yellow',
-  eggGroups: [ 'Bug' ]
-}, 
-{
   number: 16,
   name: 'Pidgey',
   types: [ 'Normal', 'Flying' ],
@@ -300,18 +216,6 @@ exports.pokedex = [
   eggGroups: [ 'Flying' ]
 }, 
 {
-  number: 18,
-  name: 'Pidgeot-Mega',
-  types: [ 'Normal', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 83, atk: 80, def: 80, spa: 135, spd: 80, spe: 121 },
-  abilities: { '0': 'No Guard' },
-  height: 2.2,
-  weight: 50.5,
-  color: 'Brown',
-  eggGroups: [ 'Flying' ]
-}, 
-{
   number: 19,
   name: 'Rattata',
   types: [ 'Normal' ],
@@ -324,18 +228,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 19,
-  name: 'Rattata-Alola',
-  types: [ 'Dark', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 30, atk: 56, def: 35, spa: 25, spd: 35, spe: 72 },
-  abilities: { '0': 'Gluttony', '1': 'Hustle', H: 'Thick Fat' },
-  height: 0.3,
-  weight: 3.8,
-  color: 'Black',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 20,
   name: 'Raticate',
   types: [ 'Normal' ],
@@ -345,30 +237,6 @@ exports.pokedex = [
   height: 0.7,
   weight: 18.5,
   color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 20,
-  name: 'Raticate-Alola',
-  types: [ 'Dark', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 71, def: 70, spa: 40, spd: 80, spe: 77 },
-  abilities: { '0': 'Gluttony', '1': 'Hustle', H: 'Thick Fat' },
-  height: 0.7,
-  weight: 25.5,
-  color: 'Black',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 20,
-  name: 'Raticate-Alola-Totem',
-  types: [ 'Dark', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 71, def: 70, spa: 40, spd: 80, spe: 77 },
-  abilities: { '0': 'Thick Fat' },
-  height: 1.4,
-  weight: 105,
-  color: 'Black',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -432,186 +300,6 @@ exports.pokedex = [
   eggGroups: [ 'Field', 'Fairy' ]
 }, 
 {
-  number: 25,
-  name: 'Pikachu-Cosplay',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Rock-Star',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Belle',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Pop-Star',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-PhD',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Libre',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Original',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Hoenn',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Sinnoh',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Unova',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Kalos',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Alola',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Partner',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Starter',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 45, atk: 80, def: 50, spa: 75, spd: 60, spe: 120 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 0.4,
-  weight: 6,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 25,
-  name: 'Pikachu-Gmax',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 55, def: 40, spa: 50, spd: 50, spe: 90 },
-  abilities: { '0': 'Static', H: 'Lightning Rod' },
-  height: 21,
-  weight: 0,
-  color: 'Yellow',
-  eggGroups: [ 'Field', 'Fairy' ]
-}, 
-{
   number: 26,
   name: 'Raichu',
   types: [ 'Electric' ],
@@ -621,18 +309,6 @@ exports.pokedex = [
   height: 0.8,
   weight: 30,
   color: 'Yellow',
-  eggGroups: [ 'Field', 'Fairy' ]
-}, 
-{
-  number: 26,
-  name: 'Raichu-Alola',
-  types: [ 'Electric', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 85, def: 50, spa: 95, spd: 85, spe: 110 },
-  abilities: { '0': 'Surge Surfer' },
-  height: 0.7,
-  weight: 21,
-  color: 'Brown',
   eggGroups: [ 'Field', 'Fairy' ]
 }, 
 {
@@ -648,18 +324,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 27,
-  name: 'Sandshrew-Alola',
-  types: [ 'Ice', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 75, def: 90, spa: 10, spd: 35, spe: 40 },
-  abilities: { '0': 'Snow Cloak', H: 'Slush Rush' },
-  height: 0.7,
-  weight: 40,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 28,
   name: 'Sandslash',
   types: [ 'Ground' ],
@@ -669,18 +333,6 @@ exports.pokedex = [
   height: 1,
   weight: 29.5,
   color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 28,
-  name: 'Sandslash-Alola',
-  types: [ 'Ice', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 100, def: 120, spa: 25, spd: 65, spe: 65 },
-  abilities: { '0': 'Snow Cloak', H: 'Slush Rush' },
-  height: 1.2,
-  weight: 55,
-  color: 'Blue',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -792,18 +444,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 37,
-  name: 'Vulpix-Alola',
-  types: [ 'Ice' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 38, atk: 41, def: 40, spa: 50, spd: 65, spe: 65 },
-  abilities: { '0': 'Snow Cloak', H: 'Snow Warning' },
-  height: 0.6,
-  weight: 9.9,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 38,
   name: 'Ninetales',
   types: [ 'Fire' ],
@@ -813,18 +453,6 @@ exports.pokedex = [
   height: 1.1,
   weight: 19.9,
   color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 38,
-  name: 'Ninetales-Alola',
-  types: [ 'Ice', 'Fairy' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 73, atk: 67, def: 75, spa: 81, spd: 100, spe: 109 },
-  abilities: { '0': 'Snow Cloak', H: 'Snow Warning' },
-  height: 1.1,
-  weight: 19.9,
-  color: 'Blue',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -972,18 +600,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 50,
-  name: 'Diglett-Alola',
-  types: [ 'Ground', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 10, atk: 55, def: 30, spa: 35, spd: 45, spe: 90 },
-  abilities: { '0': 'Sand Veil', '1': 'Tangling Hair', H: 'Sand Force' },
-  height: 0.2,
-  weight: 1,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 51,
   name: 'Dugtrio',
   types: [ 'Ground' ],
@@ -992,18 +608,6 @@ exports.pokedex = [
   abilities: { '0': 'Sand Veil', '1': 'Arena Trap', H: 'Sand Force' },
   height: 0.7,
   weight: 33.3,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 51,
-  name: 'Dugtrio-Alola',
-  types: [ 'Ground', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 35, atk: 100, def: 60, spa: 50, spd: 70, spe: 110 },
-  abilities: { '0': 'Sand Veil', '1': 'Tangling Hair', H: 'Sand Force' },
-  height: 0.7,
-  weight: 66.6,
   color: 'Brown',
   eggGroups: [ 'Field' ]
 }, 
@@ -1020,42 +624,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 52,
-  name: 'Meowth-Alola',
-  types: [ 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 40, atk: 35, def: 35, spa: 50, spd: 40, spe: 90 },
-  abilities: { '0': 'Pickup', '1': 'Technician', H: 'Rattled' },
-  height: 0.4,
-  weight: 4.2,
-  color: 'Blue',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 52,
-  name: 'Meowth-Galar',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 55, spa: 40, spd: 40, spe: 40 },
-  abilities: { '0': 'Pickup', '1': 'Tough Claws', H: 'Unnerve' },
-  height: 0.4,
-  weight: 7.5,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 52,
-  name: 'Meowth-Gmax',
-  types: [ 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 40, atk: 45, def: 35, spa: 40, spd: 40, spe: 90 },
-  abilities: { '0': 'Pickup', '1': 'Technician', H: 'Unnerve' },
-  height: 33,
-  weight: 0,
-  color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 53,
   name: 'Persian',
   types: [ 'Normal' ],
@@ -1065,18 +633,6 @@ exports.pokedex = [
   height: 1,
   weight: 32,
   color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 53,
-  name: 'Persian-Alola',
-  types: [ 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 60, def: 60, spa: 75, spd: 65, spe: 115 },
-  abilities: { '0': 'Fur Coat', '1': 'Technician', H: 'Rattled' },
-  height: 1.1,
-  weight: 33,
-  color: 'Blue',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -1224,18 +780,6 @@ exports.pokedex = [
   eggGroups: [ 'Human-Like' ]
 }, 
 {
-  number: 65,
-  name: 'Alakazam-Mega',
-  types: [ 'Psychic' ],
-  genderRatio: { M: 0.75, F: 0.25 },
-  baseStats: { hp: 55, atk: 50, def: 65, spa: 175, spd: 105, spe: 150 },
-  abilities: { '0': 'Trace' },
-  height: 1.2,
-  weight: 48,
-  color: 'Brown',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
   number: 66,
   name: 'Machop',
   types: [ 'Fighting' ],
@@ -1268,18 +812,6 @@ exports.pokedex = [
   abilities: { '0': 'Guts', '1': 'No Guard', H: 'Steadfast' },
   height: 1.6,
   weight: 130,
-  color: 'Gray',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
-  number: 68,
-  name: 'Machamp-Gmax',
-  types: [ 'Fighting' ],
-  genderRatio: { M: 0.75, F: 0.25 },
-  baseStats: { hp: 90, atk: 130, def: 80, spa: 65, spd: 85, spe: 55 },
-  abilities: { '0': 'Guts', '1': 'No Guard', H: 'Steadfast' },
-  height: 0,
-  weight: 0,
   color: 'Gray',
   eggGroups: [ 'Human-Like' ]
 }, 
@@ -1356,18 +888,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral' ]
 }, 
 {
-  number: 74,
-  name: 'Geodude-Alola',
-  types: [ 'Rock', 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 40, atk: 80, def: 100, spa: 30, spd: 30, spe: 20 },
-  abilities: { '0': 'Magnet Pull', '1': 'Sturdy', H: 'Galvanize' },
-  height: 0.4,
-  weight: 20.3,
-  color: 'Gray',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
   number: 75,
   name: 'Graveler',
   types: [ 'Rock', 'Ground' ],
@@ -1377,18 +897,6 @@ exports.pokedex = [
   height: 1,
   weight: 105,
   color: 'Brown',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
-  number: 75,
-  name: 'Graveler-Alola',
-  types: [ 'Rock', 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 95, def: 115, spa: 45, spd: 45, spe: 35 },
-  abilities: { '0': 'Magnet Pull', '1': 'Sturdy', H: 'Galvanize' },
-  height: 1,
-  weight: 110,
-  color: 'Gray',
   eggGroups: [ 'Mineral' ]
 }, 
 {
@@ -1404,18 +912,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral' ]
 }, 
 {
-  number: 76,
-  name: 'Golem-Alola',
-  types: [ 'Rock', 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 120, def: 130, spa: 55, spd: 65, spe: 45 },
-  abilities: { '0': 'Magnet Pull', '1': 'Sturdy', H: 'Galvanize' },
-  height: 1.7,
-  weight: 316,
-  color: 'Gray',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
   number: 77,
   name: 'Ponyta',
   types: [ 'Fire' ],
@@ -1425,18 +921,6 @@ exports.pokedex = [
   height: 1,
   weight: 30,
   color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 77,
-  name: 'Ponyta-Galar',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 85, def: 55, spa: 65, spd: 65, spe: 90 },
-  abilities: { '0': 'Run Away', '1': 'Pastel Veil', H: 'Anticipation' },
-  height: 0.8,
-  weight: 24,
-  color: 'White',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -1452,36 +936,12 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 78,
-  name: 'Rapidash-Galar',
-  types: [ 'Psychic', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 100, def: 70, spa: 80, spd: 80, spe: 105 },
-  abilities: { '0': 'Run Away', '1': 'Pastel Veil', H: 'Anticipation' },
-  height: 1.7,
-  weight: 80,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 79,
   name: 'Slowpoke',
   types: [ 'Water', 'Psychic' ],
   genderRatio: undefined,
   baseStats: { hp: 90, atk: 65, def: 65, spa: 40, spd: 40, spe: 15 },
   abilities: { '0': 'Oblivious', '1': 'Own Tempo', H: 'Regenerator' },
-  height: 1.2,
-  weight: 36,
-  color: 'Pink',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
-  number: 79,
-  name: 'Slowpoke-Galar',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 90, atk: 65, def: 65, spa: 40, spd: 40, spe: 15 },
-  abilities: { '0': 'Gluttony', '1': 'Own Tempo', H: 'Regenerator' },
   height: 1.2,
   weight: 36,
   color: 'Pink',
@@ -1496,18 +956,6 @@ exports.pokedex = [
   abilities: { '0': 'Oblivious', '1': 'Own Tempo', H: 'Regenerator' },
   height: 1.6,
   weight: 78.5,
-  color: 'Pink',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
-  number: 80,
-  name: 'Slowbro-Mega',
-  types: [ 'Water', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 75, def: 180, spa: 130, spd: 80, spe: 30 },
-  abilities: { '0': 'Shell Armor' },
-  height: 2,
-  weight: 120,
   color: 'Pink',
   eggGroups: [ 'Monster', 'Water 1' ]
 }, 
@@ -1542,18 +990,6 @@ exports.pokedex = [
   genderRatio: undefined,
   baseStats: { hp: 52, atk: 90, def: 55, spa: 58, spd: 62, spe: 60 },
   abilities: { '0': 'Keen Eye', '1': 'Inner Focus', H: 'Defiant' },
-  height: 0.8,
-  weight: 15,
-  color: 'Brown',
-  eggGroups: [ 'Flying', 'Field' ]
-}, 
-{
-  number: 83,
-  name: "Farfetch'd-Galar",
-  types: [ 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 52, atk: 95, def: 55, spa: 58, spd: 62, spe: 55 },
-  abilities: { '0': 'Steadfast', H: 'Scrappy' },
   height: 0.8,
   weight: 15,
   color: 'Brown',
@@ -1620,18 +1056,6 @@ exports.pokedex = [
   eggGroups: [ 'Amorphous' ]
 }, 
 {
-  number: 88,
-  name: 'Grimer-Alola',
-  types: [ 'Poison', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 80, def: 50, spa: 40, spd: 50, spe: 25 },
-  abilities: { '0': 'Poison Touch', '1': 'Gluttony', H: 'Power of Alchemy' },
-  height: 0.7,
-  weight: 42,
-  color: 'Green',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
   number: 89,
   name: 'Muk',
   types: [ 'Poison' ],
@@ -1641,18 +1065,6 @@ exports.pokedex = [
   height: 1.2,
   weight: 30,
   color: 'Purple',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 89,
-  name: 'Muk-Alola',
-  types: [ 'Poison', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50 },
-  abilities: { '0': 'Poison Touch', '1': 'Gluttony', H: 'Power of Alchemy' },
-  height: 1,
-  weight: 52,
-  color: 'Green',
   eggGroups: [ 'Amorphous' ]
 }, 
 {
@@ -1712,30 +1124,6 @@ exports.pokedex = [
   abilities: { '0': 'Cursed Body' },
   height: 1.5,
   weight: 40.5,
-  color: 'Purple',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 94,
-  name: 'Gengar-Mega',
-  types: [ 'Ghost', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 65, def: 80, spa: 170, spd: 95, spe: 130 },
-  abilities: { '0': 'Shadow Tag' },
-  height: 1.4,
-  weight: 40.5,
-  color: 'Purple',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 94,
-  name: 'Gengar-Gmax',
-  types: [ 'Ghost', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 65, def: 60, spa: 130, spd: 75, spe: 110 },
-  abilities: { '0': 'Cursed Body' },
-  height: 0,
-  weight: 0,
   color: 'Purple',
   eggGroups: [ 'Amorphous' ]
 }, 
@@ -1800,18 +1188,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 3' ]
 }, 
 {
-  number: 99,
-  name: 'Kingler-Gmax',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 130, def: 115, spa: 50, spd: 50, spe: 75 },
-  abilities: { '0': 'Hyper Cutter', '1': 'Shell Armor', H: 'Sheer Force' },
-  height: 0,
-  weight: 0,
-  color: 'Red',
-  eggGroups: [ 'Water 3' ]
-}, 
-{
   number: 100,
   name: 'Voltorb',
   types: [ 'Electric' ],
@@ -1860,18 +1236,6 @@ exports.pokedex = [
   eggGroups: [ 'Grass' ]
 }, 
 {
-  number: 103,
-  name: 'Exeggutor-Alola',
-  types: [ 'Grass', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 105, def: 85, spa: 125, spd: 75, spe: 45 },
-  abilities: { '0': 'Frisk', H: 'Harvest' },
-  height: 10.9,
-  weight: 415.6,
-  color: 'Yellow',
-  eggGroups: [ 'Grass' ]
-}, 
-{
   number: 104,
   name: 'Cubone',
   types: [ 'Ground' ],
@@ -1893,30 +1257,6 @@ exports.pokedex = [
   height: 1,
   weight: 45,
   color: 'Brown',
-  eggGroups: [ 'Monster' ]
-}, 
-{
-  number: 105,
-  name: 'Marowak-Alola',
-  types: [ 'Fire', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 80, def: 110, spa: 50, spd: 80, spe: 45 },
-  abilities: { '0': 'Cursed Body', '1': 'Lightning Rod', H: 'Rock Head' },
-  height: 1,
-  weight: 34,
-  color: 'Purple',
-  eggGroups: [ 'Monster' ]
-}, 
-{
-  number: 105,
-  name: 'Marowak-Alola-Totem',
-  types: [ 'Fire', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 80, def: 110, spa: 50, spd: 80, spe: 45 },
-  abilities: { '0': 'Rock Head' },
-  height: 1.7,
-  weight: 98,
-  color: 'Purple',
   eggGroups: [ 'Monster' ]
 }, 
 {
@@ -1980,18 +1320,6 @@ exports.pokedex = [
   eggGroups: [ 'Amorphous' ]
 }, 
 {
-  number: 110,
-  name: 'Weezing-Galar',
-  types: [ 'Poison', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 90, def: 120, spa: 85, spd: 70, spe: 60 },
-  abilities: { '0': 'Levitate', '1': 'Neutralizing Gas', H: 'Misty Surge' },
-  height: 3,
-  weight: 16,
-  color: 'Gray',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
   number: 111,
   name: 'Rhyhorn',
   types: [ 'Ground', 'Rock' ],
@@ -2048,18 +1376,6 @@ exports.pokedex = [
   abilities: { '0': 'Early Bird', '1': 'Scrappy', H: 'Inner Focus' },
   height: 2.2,
   weight: 80,
-  color: 'Brown',
-  eggGroups: [ 'Monster' ]
-}, 
-{
-  number: 115,
-  name: 'Kangaskhan-Mega',
-  types: [ 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 125, def: 100, spa: 60, spd: 100, spe: 100 },
-  abilities: { '0': 'Parental Bond' },
-  height: 2.2,
-  weight: 100,
   color: 'Brown',
   eggGroups: [ 'Monster' ]
 }, 
@@ -2148,18 +1464,6 @@ exports.pokedex = [
   eggGroups: [ 'Human-Like' ]
 }, 
 {
-  number: 122,
-  name: 'Mr. Mime-Galar',
-  types: [ 'Ice', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 65, spa: 90, spd: 90, spe: 100 },
-  abilities: { '0': 'Vital Spirit', '1': 'Screen Cleaner', H: 'Ice Body' },
-  height: 1.4,
-  weight: 56.8,
-  color: 'White',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
   number: 123,
   name: 'Scyther',
   types: [ 'Bug', 'Flying' ],
@@ -2220,18 +1524,6 @@ exports.pokedex = [
   eggGroups: [ 'Bug' ]
 }, 
 {
-  number: 127,
-  name: 'Pinsir-Mega',
-  types: [ 'Bug', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 155, def: 120, spa: 65, spd: 90, spe: 105 },
-  abilities: { '0': 'Aerilate' },
-  height: 1.7,
-  weight: 59,
-  color: 'Brown',
-  eggGroups: [ 'Bug' ]
-}, 
-{
   number: 128,
   name: 'Tauros',
   types: [ 'Normal' ],
@@ -2268,18 +1560,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 2', 'Dragon' ]
 }, 
 {
-  number: 130,
-  name: 'Gyarados-Mega',
-  types: [ 'Water', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 155, def: 109, spa: 70, spd: 130, spe: 81 },
-  abilities: { '0': 'Mold Breaker' },
-  height: 6.5,
-  weight: 305,
-  color: 'Blue',
-  eggGroups: [ 'Water 2', 'Dragon' ]
-}, 
-{
   number: 131,
   name: 'Lapras',
   types: [ 'Water', 'Ice' ],
@@ -2288,18 +1568,6 @@ exports.pokedex = [
   abilities: { '0': 'Water Absorb', '1': 'Shell Armor', H: 'Hydration' },
   height: 2.5,
   weight: 220,
-  color: 'Blue',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
-  number: 131,
-  name: 'Lapras-Gmax',
-  types: [ 'Water', 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 130, atk: 85, def: 80, spa: 85, spd: 95, spe: 60 },
-  abilities: { '0': 'Water Absorb', '1': 'Shell Armor', H: 'Hydration' },
-  height: 0,
-  weight: 0,
   color: 'Blue',
   eggGroups: [ 'Monster', 'Water 1' ]
 }, 
@@ -2324,30 +1592,6 @@ exports.pokedex = [
   abilities: { '0': 'Run Away', '1': 'Adaptability', H: 'Anticipation' },
   height: 0.3,
   weight: 6.5,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 133,
-  name: 'Eevee-Starter',
-  types: [ 'Normal' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 65, atk: 75, def: 70, spa: 65, spd: 85, spe: 75 },
-  abilities: { '0': 'Run Away', '1': 'Adaptability', H: 'Anticipation' },
-  height: 0.3,
-  weight: 6.5,
-  color: 'Brown',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 133,
-  name: 'Eevee-Gmax',
-  types: [ 'Normal' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 55, atk: 55, def: 50, spa: 45, spd: 65, spe: 55 },
-  abilities: { '0': 'Run Away', '1': 'Adaptability', H: 'Anticipation' },
-  height: 18,
-  weight: 0,
   color: 'Brown',
   eggGroups: [ 'Field' ]
 }, 
@@ -2460,18 +1704,6 @@ exports.pokedex = [
   eggGroups: [ 'Flying' ]
 }, 
 {
-  number: 142,
-  name: 'Aerodactyl-Mega',
-  types: [ 'Rock', 'Flying' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 80, atk: 135, def: 85, spa: 70, spd: 95, spe: 150 },
-  abilities: { '0': 'Tough Claws' },
-  height: 2.1,
-  weight: 79,
-  color: 'Purple',
-  eggGroups: [ 'Flying' ]
-}, 
-{
   number: 143,
   name: 'Snorlax',
   types: [ 'Normal' ],
@@ -2480,18 +1712,6 @@ exports.pokedex = [
   abilities: { '0': 'Immunity', '1': 'Thick Fat', H: 'Gluttony' },
   height: 2.1,
   weight: 460,
-  color: 'Black',
-  eggGroups: [ 'Monster' ]
-}, 
-{
-  number: 143,
-  name: 'Snorlax-Gmax',
-  types: [ 'Normal' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 160, atk: 110, def: 65, spa: 65, spd: 110, spe: 30 },
-  abilities: { '0': 'Immunity', '1': 'Thick Fat', H: 'Gluttony' },
-  height: 0,
-  weight: 0,
   color: 'Black',
   eggGroups: [ 'Monster' ]
 }, 
@@ -2576,30 +1796,6 @@ exports.pokedex = [
   abilities: { '0': 'Pressure', H: 'Unnerve' },
   height: 2,
   weight: 122,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 150,
-  name: 'Mewtwo-Mega-X',
-  types: [ 'Psychic', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 106, atk: 190, def: 100, spa: 154, spd: 100, spe: 130 },
-  abilities: { '0': 'Steadfast' },
-  height: 2.3,
-  weight: 127,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 150,
-  name: 'Mewtwo-Mega-Y',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 106, atk: 150, def: 70, spa: 194, spd: 120, spe: 140 },
-  abilities: { '0': 'Insomnia' },
-  height: 1.5,
-  weight: 33,
   color: 'Purple',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -2868,18 +2064,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 172,
-  name: 'Pichu-Spiky-eared',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 20, atk: 40, def: 15, spa: 35, spd: 35, spe: 60 },
-  abilities: { '0': 'Static' },
-  height: 0.3,
-  weight: 2,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 173,
   name: 'Cleffa',
   types: [ 'Fairy' ],
@@ -2982,18 +2166,6 @@ exports.pokedex = [
   genderRatio: undefined,
   baseStats: { hp: 90, atk: 75, def: 85, spa: 115, spd: 90, spe: 55 },
   abilities: { '0': 'Static', H: 'Plus' },
-  height: 1.4,
-  weight: 61.5,
-  color: 'Yellow',
-  eggGroups: [ 'Monster', 'Field' ]
-}, 
-{
-  number: 181,
-  name: 'Ampharos-Mega',
-  types: [ 'Electric', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 90, atk: 95, def: 105, spa: 165, spd: 110, spe: 45 },
-  abilities: { '0': 'Mold Breaker' },
   height: 1.4,
   weight: 61.5,
   color: 'Yellow',
@@ -3324,18 +2496,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral' ]
 }, 
 {
-  number: 208,
-  name: 'Steelix-Mega',
-  types: [ 'Steel', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 125, def: 230, spa: 55, spd: 95, spe: 30 },
-  abilities: { '0': 'Sand Force' },
-  height: 10.5,
-  weight: 740,
-  color: 'Gray',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
   number: 209,
   name: 'Snubbull',
   types: [ 'Fairy' ],
@@ -3384,18 +2544,6 @@ exports.pokedex = [
   eggGroups: [ 'Bug' ]
 }, 
 {
-  number: 212,
-  name: 'Scizor-Mega',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 150, def: 140, spa: 65, spd: 100, spe: 75 },
-  abilities: { '0': 'Technician' },
-  height: 2,
-  weight: 125,
-  color: 'Red',
-  eggGroups: [ 'Bug' ]
-}, 
-{
   number: 213,
   name: 'Shuckle',
   types: [ 'Bug', 'Rock' ],
@@ -3416,18 +2564,6 @@ exports.pokedex = [
   abilities: { '0': 'Swarm', '1': 'Guts', H: 'Moxie' },
   height: 1.5,
   weight: 54,
-  color: 'Blue',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 214,
-  name: 'Heracross-Mega',
-  types: [ 'Bug', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 185, def: 115, spa: 40, spd: 105, spe: 75 },
-  abilities: { '0': 'Skill Link' },
-  height: 1.7,
-  weight: 62.5,
   color: 'Blue',
   eggGroups: [ 'Bug' ]
 }, 
@@ -3528,18 +2664,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 1', 'Water 3' ]
 }, 
 {
-  number: 222,
-  name: 'Corsola-Galar',
-  types: [ 'Ghost' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 60, atk: 55, def: 100, spa: 65, spd: 100, spe: 30 },
-  abilities: { '0': 'Weak Armor', H: 'Cursed Body' },
-  height: 0.6,
-  weight: 0.5,
-  color: 'White',
-  eggGroups: [ 'Water 1', 'Water 3' ]
-}, 
-{
   number: 223,
   name: 'Remoraid',
   types: [ 'Water' ],
@@ -3620,18 +2744,6 @@ exports.pokedex = [
   abilities: { '0': 'Early Bird', '1': 'Flash Fire', H: 'Unnerve' },
   height: 1.4,
   weight: 35,
-  color: 'Black',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 229,
-  name: 'Houndoom-Mega',
-  types: [ 'Dark', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 90, def: 90, spa: 140, spd: 90, spe: 115 },
-  abilities: { '0': 'Solar Power' },
-  height: 1.9,
-  weight: 49.5,
   color: 'Black',
   eggGroups: [ 'Field' ]
 }, 
@@ -3864,18 +2976,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster' ]
 }, 
 {
-  number: 248,
-  name: 'Tyranitar-Mega',
-  types: [ 'Rock', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 164, def: 150, spa: 95, spd: 120, spe: 71 },
-  abilities: { '0': 'Sand Stream' },
-  height: 2.5,
-  weight: 255,
-  color: 'Green',
-  eggGroups: [ 'Monster' ]
-}, 
-{
   number: 249,
   name: 'Lugia',
   types: [ 'Psychic', 'Flying' ],
@@ -3948,18 +3048,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Dragon' ]
 }, 
 {
-  number: 254,
-  name: 'Sceptile-Mega',
-  types: [ 'Grass', 'Dragon' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 70, atk: 110, def: 75, spa: 145, spd: 85, spe: 145 },
-  abilities: { '0': 'Lightning Rod' },
-  height: 1.9,
-  weight: 55.2,
-  color: 'Green',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
   number: 255,
   name: 'Torchic',
   types: [ 'Fire' ],
@@ -3990,18 +3078,6 @@ exports.pokedex = [
   genderRatio: { M: 0.875, F: 0.125 },
   baseStats: { hp: 80, atk: 120, def: 70, spa: 110, spd: 70, spe: 80 },
   abilities: { '0': 'Blaze', H: 'Speed Boost' },
-  height: 1.9,
-  weight: 52,
-  color: 'Red',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 257,
-  name: 'Blaziken-Mega',
-  types: [ 'Fire', 'Fighting' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 80, atk: 160, def: 80, spa: 130, spd: 80, spe: 100 },
-  abilities: { '0': 'Speed Boost' },
   height: 1.9,
   weight: 52,
   color: 'Red',
@@ -4044,18 +3120,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Water 1' ]
 }, 
 {
-  number: 260,
-  name: 'Swampert-Mega',
-  types: [ 'Water', 'Ground' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 100, atk: 150, def: 110, spa: 95, spd: 110, spe: 70 },
-  abilities: { '0': 'Swift Swim' },
-  height: 1.9,
-  weight: 102,
-  color: 'Blue',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
   number: 261,
   name: 'Poochyena',
   types: [ 'Dark' ],
@@ -4092,33 +3156,9 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 263,
-  name: 'Zigzagoon-Galar',
-  types: [ 'Dark', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 38, atk: 30, def: 41, spa: 30, spd: 41, spe: 60 },
-  abilities: { '0': 'Pickup', '1': 'Gluttony', H: 'Quick Feet' },
-  height: 0.4,
-  weight: 17.5,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 264,
   name: 'Linoone',
   types: [ 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 78, atk: 70, def: 61, spa: 50, spd: 61, spe: 100 },
-  abilities: { '0': 'Pickup', '1': 'Gluttony', H: 'Quick Feet' },
-  height: 0.5,
-  weight: 32.5,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 264,
-  name: 'Linoone-Galar',
-  types: [ 'Dark', 'Normal' ],
   genderRatio: undefined,
   baseStats: { hp: 78, atk: 70, def: 61, spa: 50, spd: 61, spe: 100 },
   abilities: { '0': 'Pickup', '1': 'Gluttony', H: 'Quick Feet' },
@@ -4342,18 +3382,6 @@ exports.pokedex = [
   weight: 48.4,
   color: 'White',
   eggGroups: [ 'Human-Like', 'Amorphous' ]
-}, 
-{
-  number: 282,
-  name: 'Gardevoir-Mega',
-  types: [ 'Psychic', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 68, atk: 85, def: 65, spa: 165, spd: 135, spe: 100 },
-  abilities: { '0': 'Pixilate' },
-  height: 1.6,
-  weight: 48.4,
-  color: 'White',
-  eggGroups: [ 'Amorphous' ]
 }, 
 {
   number: 283,
@@ -4596,18 +3624,6 @@ exports.pokedex = [
   eggGroups: [ 'Human-Like' ]
 }, 
 {
-  number: 302,
-  name: 'Sableye-Mega',
-  types: [ 'Dark', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 85, def: 125, spa: 85, spd: 115, spe: 20 },
-  abilities: { '0': 'Magic Bounce' },
-  height: 0.5,
-  weight: 161,
-  color: 'Purple',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
   number: 303,
   name: 'Mawile',
   types: [ 'Steel', 'Fairy' ],
@@ -4616,18 +3632,6 @@ exports.pokedex = [
   abilities: { '0': 'Hyper Cutter', '1': 'Intimidate', H: 'Sheer Force' },
   height: 0.6,
   weight: 11.5,
-  color: 'Black',
-  eggGroups: [ 'Field', 'Fairy' ]
-}, 
-{
-  number: 303,
-  name: 'Mawile-Mega',
-  types: [ 'Steel', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 105, def: 125, spa: 55, spd: 95, spe: 50 },
-  abilities: { '0': 'Huge Power' },
-  height: 1,
-  weight: 23.5,
   color: 'Black',
   eggGroups: [ 'Field', 'Fairy' ]
 }, 
@@ -4668,18 +3672,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster' ]
 }, 
 {
-  number: 306,
-  name: 'Aggron-Mega',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 140, def: 230, spa: 60, spd: 80, spe: 50 },
-  abilities: { '0': 'Filter' },
-  height: 2.2,
-  weight: 395,
-  color: 'Gray',
-  eggGroups: [ 'Monster' ]
-}, 
-{
   number: 307,
   name: 'Meditite',
   types: [ 'Fighting', 'Psychic' ],
@@ -4698,18 +3690,6 @@ exports.pokedex = [
   genderRatio: undefined,
   baseStats: { hp: 60, atk: 60, def: 75, spa: 60, spd: 75, spe: 80 },
   abilities: { '0': 'Pure Power', H: 'Telepathy' },
-  height: 1.3,
-  weight: 31.5,
-  color: 'Red',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
-  number: 308,
-  name: 'Medicham-Mega',
-  types: [ 'Fighting', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 100, def: 85, spa: 80, spd: 85, spe: 100 },
-  abilities: { '0': 'Pure Power' },
   height: 1.3,
   weight: 31.5,
   color: 'Red',
@@ -4736,18 +3716,6 @@ exports.pokedex = [
   abilities: { '0': 'Static', '1': 'Lightning Rod', H: 'Minus' },
   height: 1.5,
   weight: 40.2,
-  color: 'Yellow',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 310,
-  name: 'Manectric-Mega',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 75, def: 80, spa: 135, spd: 80, spe: 135 },
-  abilities: { '0': 'Intimidate' },
-  height: 1.8,
-  weight: 44,
   color: 'Yellow',
   eggGroups: [ 'Field' ]
 }, 
@@ -4860,18 +3828,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 2' ]
 }, 
 {
-  number: 319,
-  name: 'Sharpedo-Mega',
-  types: [ 'Water', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 140, def: 70, spa: 110, spd: 65, spe: 105 },
-  abilities: { '0': 'Strong Jaw' },
-  height: 2.5,
-  weight: 130.3,
-  color: 'Blue',
-  eggGroups: [ 'Water 2' ]
-}, 
-{
   number: 320,
   name: 'Wailmer',
   types: [ 'Water' ],
@@ -4916,18 +3872,6 @@ exports.pokedex = [
   abilities: { '0': 'Magma Armor', '1': 'Solid Rock', H: 'Anger Point' },
   height: 1.9,
   weight: 220,
-  color: 'Red',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 323,
-  name: 'Camerupt-Mega',
-  types: [ 'Fire', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 120, def: 100, spa: 145, spd: 105, spe: 20 },
-  abilities: { '0': 'Sheer Force' },
-  height: 2.5,
-  weight: 320.5,
   color: 'Red',
   eggGroups: [ 'Field' ]
 }, 
@@ -5059,18 +4003,6 @@ exports.pokedex = [
   baseStats: { hp: 75, atk: 70, def: 90, spa: 70, spd: 105, spe: 80 },
   abilities: { '0': 'Natural Cure', H: 'Cloud Nine' },
   height: 1.1,
-  weight: 20.6,
-  color: 'Blue',
-  eggGroups: [ 'Flying', 'Dragon' ]
-}, 
-{
-  number: 334,
-  name: 'Altaria-Mega',
-  types: [ 'Dragon', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 110, def: 110, spa: 110, spd: 105, spe: 80 },
-  abilities: { '0': 'Pixilate' },
-  height: 1.5,
   weight: 20.6,
   color: 'Blue',
   eggGroups: [ 'Flying', 'Dragon' ]
@@ -5280,42 +4212,6 @@ exports.pokedex = [
   eggGroups: [ 'Fairy', 'Amorphous' ]
 }, 
 {
-  number: 351,
-  name: 'Castform-Sunny',
-  types: [ 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
-  abilities: { '0': 'Forecast' },
-  height: 0.3,
-  weight: 0.8,
-  color: 'Red',
-  eggGroups: [ 'Fairy', 'Amorphous' ]
-}, 
-{
-  number: 351,
-  name: 'Castform-Rainy',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
-  abilities: { '0': 'Forecast' },
-  height: 0.3,
-  weight: 0.8,
-  color: 'Blue',
-  eggGroups: [ 'Fairy', 'Amorphous' ]
-}, 
-{
-  number: 351,
-  name: 'Castform-Snowy',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
-  abilities: { '0': 'Forecast' },
-  height: 0.3,
-  weight: 0.8,
-  color: 'White',
-  eggGroups: [ 'Fairy', 'Amorphous' ]
-}, 
-{
   number: 352,
   name: 'Kecleon',
   types: [ 'Normal' ],
@@ -5348,18 +4244,6 @@ exports.pokedex = [
   abilities: { '0': 'Insomnia', '1': 'Frisk', H: 'Cursed Body' },
   height: 1.1,
   weight: 12.5,
-  color: 'Black',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 354,
-  name: 'Banette-Mega',
-  types: [ 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 64, atk: 165, def: 75, spa: 93, spd: 83, spe: 75 },
-  abilities: { '0': 'Prankster' },
-  height: 1.2,
-  weight: 13,
   color: 'Black',
   eggGroups: [ 'Amorphous' ]
 }, 
@@ -5424,18 +4308,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 359,
-  name: 'Absol-Mega',
-  types: [ 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 150, def: 60, spa: 115, spd: 60, spe: 115 },
-  abilities: { '0': 'Magic Bounce' },
-  height: 1.2,
-  weight: 49,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 360,
   name: 'Wynaut',
   types: [ 'Psychic' ],
@@ -5468,18 +4340,6 @@ exports.pokedex = [
   abilities: { '0': 'Inner Focus', '1': 'Ice Body', H: 'Moody' },
   height: 1.5,
   weight: 256.5,
-  color: 'Gray',
-  eggGroups: [ 'Fairy', 'Mineral' ]
-}, 
-{
-  number: 362,
-  name: 'Glalie-Mega',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 120, def: 80, spa: 120, spd: 80, spe: 100 },
-  abilities: { '0': 'Refrigerate' },
-  height: 2.1,
-  weight: 350.2,
   color: 'Gray',
   eggGroups: [ 'Fairy', 'Mineral' ]
 }, 
@@ -5616,18 +4476,6 @@ exports.pokedex = [
   eggGroups: [ 'Dragon' ]
 }, 
 {
-  number: 373,
-  name: 'Salamence-Mega',
-  types: [ 'Dragon', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 145, def: 130, spa: 120, spd: 90, spe: 120 },
-  abilities: { '0': 'Aerilate' },
-  height: 1.8,
-  weight: 112.6,
-  color: 'Blue',
-  eggGroups: [ 'Dragon' ]
-}, 
-{
   number: 374,
   name: 'Beldum',
   types: [ 'Steel', 'Psychic' ],
@@ -5660,18 +4508,6 @@ exports.pokedex = [
   abilities: { '0': 'Clear Body', H: 'Light Metal' },
   height: 1.6,
   weight: 550,
-  color: 'Blue',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
-  number: 376,
-  name: 'Metagross-Mega',
-  types: [ 'Steel', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 145, def: 150, spa: 105, spd: 110, spe: 110 },
-  abilities: { '0': 'Tough Claws' },
-  height: 2.5,
-  weight: 942.9,
   color: 'Blue',
   eggGroups: [ 'Mineral' ]
 }, 
@@ -5724,18 +4560,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 380,
-  name: 'Latias-Mega',
-  types: [ 'Dragon', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 100, def: 120, spa: 140, spd: 150, spe: 110 },
-  abilities: { '0': 'Levitate' },
-  height: 1.8,
-  weight: 52,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 381,
   name: 'Latios',
   types: [ 'Dragon', 'Psychic' ],
@@ -5748,18 +4572,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 381,
-  name: 'Latios-Mega',
-  types: [ 'Dragon', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 130, def: 100, spa: 160, spd: 120, spe: 110 },
-  abilities: { '0': 'Levitate' },
-  height: 2.3,
-  weight: 70,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 382,
   name: 'Kyogre',
   types: [ 'Water' ],
@@ -5768,18 +4580,6 @@ exports.pokedex = [
   abilities: { '0': 'Drizzle' },
   height: 4.5,
   weight: 352,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 382,
-  name: 'Kyogre-Primal',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 150, def: 90, spa: 180, spd: 160, spe: 90 },
-  abilities: { '0': 'Primordial Sea' },
-  height: 9.8,
-  weight: 430,
   color: 'Blue',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -5796,18 +4596,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 383,
-  name: 'Groudon-Primal',
-  types: [ 'Ground', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 180, def: 160, spa: 150, spd: 90, spe: 90 },
-  abilities: { '0': 'Desolate Land' },
-  height: 5,
-  weight: 999.7,
-  color: 'Red',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 384,
   name: 'Rayquaza',
   types: [ 'Dragon', 'Flying' ],
@@ -5816,18 +4604,6 @@ exports.pokedex = [
   abilities: { '0': 'Air Lock' },
   height: 7,
   weight: 206.5,
-  color: 'Green',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 384,
-  name: 'Rayquaza-Mega',
-  types: [ 'Dragon', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 180, def: 100, spa: 180, spd: 100, spe: 115 },
-  abilities: { '0': 'Delta Stream' },
-  height: 10.8,
-  weight: 392,
   color: 'Green',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -5849,42 +4625,6 @@ exports.pokedex = [
   types: [ 'Psychic' ],
   genderRatio: undefined,
   baseStats: { hp: 50, atk: 150, def: 50, spa: 150, spd: 50, spe: 150 },
-  abilities: { '0': 'Pressure' },
-  height: 1.7,
-  weight: 60.8,
-  color: 'Red',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 386,
-  name: 'Deoxys-Attack',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 180, def: 20, spa: 180, spd: 20, spe: 150 },
-  abilities: { '0': 'Pressure' },
-  height: 1.7,
-  weight: 60.8,
-  color: 'Red',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 386,
-  name: 'Deoxys-Defense',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 70, def: 160, spa: 70, spd: 160, spe: 90 },
-  abilities: { '0': 'Pressure' },
-  height: 1.7,
-  weight: 60.8,
-  color: 'Red',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 386,
-  name: 'Deoxys-Speed',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 95, def: 90, spa: 95, spd: 90, spe: 180 },
   abilities: { '0': 'Pressure' },
   height: 1.7,
   weight: 60.8,
@@ -6216,30 +4956,6 @@ exports.pokedex = [
   eggGroups: [ 'Bug' ]
 }, 
 {
-  number: 413,
-  name: 'Wormadam-Sandy',
-  types: [ 'Bug', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 79, def: 105, spa: 59, spd: 85, spe: 36 },
-  abilities: { '0': 'Anticipation', H: 'Overcoat' },
-  height: 0.5,
-  weight: 6.5,
-  color: 'Brown',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 413,
-  name: 'Wormadam-Trash',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 69, def: 95, spa: 69, spd: 95, spe: 36 },
-  abilities: { '0': 'Anticipation', H: 'Overcoat' },
-  height: 0.5,
-  weight: 6.5,
-  color: 'Red',
-  eggGroups: [ 'Bug' ]
-}, 
-{
   number: 414,
   name: 'Mothim',
   types: [ 'Bug', 'Flying' ],
@@ -6336,18 +5052,6 @@ exports.pokedex = [
   eggGroups: [ 'Fairy', 'Grass' ]
 }, 
 {
-  number: 421,
-  name: 'Cherrim-Sunshine',
-  types: [ 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 60, def: 70, spa: 87, spd: 78, spe: 85 },
-  abilities: { '0': 'Flower Gift' },
-  height: 0.5,
-  weight: 9.3,
-  color: 'Pink',
-  eggGroups: [ 'Fairy', 'Grass' ]
-}, 
-{
   number: 422,
   name: 'Shellos',
   types: [ 'Water' ],
@@ -6428,18 +5132,6 @@ exports.pokedex = [
   abilities: { '0': 'Cute Charm', '1': 'Klutz', H: 'Limber' },
   height: 1.2,
   weight: 33.3,
-  color: 'Brown',
-  eggGroups: [ 'Field', 'Human-Like' ]
-}, 
-{
-  number: 428,
-  name: 'Lopunny-Mega',
-  types: [ 'Normal', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 136, def: 94, spa: 54, spd: 96, spe: 135 },
-  abilities: { '0': 'Scrappy' },
-  height: 1.3,
-  weight: 28.3,
   color: 'Brown',
   eggGroups: [ 'Field', 'Human-Like' ]
 }, 
@@ -6648,18 +5340,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Dragon' ]
 }, 
 {
-  number: 445,
-  name: 'Garchomp-Mega',
-  types: [ 'Dragon', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 108, atk: 170, def: 115, spa: 120, spd: 95, spe: 92 },
-  abilities: { '0': 'Sand Force' },
-  height: 1.9,
-  weight: 95,
-  color: 'Blue',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
   number: 446,
   name: 'Munchlax',
   types: [ 'Normal' ],
@@ -6692,18 +5372,6 @@ exports.pokedex = [
   abilities: { '0': 'Steadfast', '1': 'Inner Focus', H: 'Justified' },
   height: 1.2,
   weight: 54,
-  color: 'Blue',
-  eggGroups: [ 'Field', 'Human-Like' ]
-}, 
-{
-  number: 448,
-  name: 'Lucario-Mega',
-  types: [ 'Fighting', 'Steel' ],
-  genderRatio: { M: 0.875, F: 0.125 },
-  baseStats: { hp: 70, atk: 145, def: 88, spa: 140, spd: 70, spe: 112 },
-  abilities: { '0': 'Adaptability' },
-  height: 1.3,
-  weight: 57.5,
   color: 'Blue',
   eggGroups: [ 'Field', 'Human-Like' ]
 }, 
@@ -6848,18 +5516,6 @@ exports.pokedex = [
   abilities: { '0': 'Snow Warning', H: 'Soundproof' },
   height: 2.2,
   weight: 135.5,
-  color: 'White',
-  eggGroups: [ 'Monster', 'Grass' ]
-}, 
-{
-  number: 460,
-  name: 'Abomasnow-Mega',
-  types: [ 'Grass', 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 90, atk: 132, def: 105, spa: 132, spd: 105, spe: 30 },
-  abilities: { '0': 'Snow Warning' },
-  height: 2.7,
-  weight: 185,
   color: 'White',
   eggGroups: [ 'Monster', 'Grass' ]
 }, 
@@ -7044,18 +5700,6 @@ exports.pokedex = [
   eggGroups: [ 'Human-Like', 'Amorphous' ]
 }, 
 {
-  number: 475,
-  name: 'Gallade-Mega',
-  types: [ 'Psychic', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 68, atk: 165, def: 95, spa: 65, spd: 115, spe: 110 },
-  abilities: { '0': 'Inner Focus' },
-  height: 1.6,
-  weight: 56.4,
-  color: 'White',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
   number: 476,
   name: 'Probopass',
   types: [ 'Rock', 'Steel' ],
@@ -7097,66 +5741,6 @@ exports.pokedex = [
   types: [ 'Electric', 'Ghost' ],
   genderRatio: undefined,
   baseStats: { hp: 50, atk: 50, def: 77, spa: 95, spd: 77, spe: 91 },
-  abilities: { '0': 'Levitate' },
-  height: 0.3,
-  weight: 0.3,
-  color: 'Red',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 479,
-  name: 'Rotom-Heat',
-  types: [ 'Electric', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86 },
-  abilities: { '0': 'Levitate' },
-  height: 0.3,
-  weight: 0.3,
-  color: 'Red',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 479,
-  name: 'Rotom-Wash',
-  types: [ 'Electric', 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86 },
-  abilities: { '0': 'Levitate' },
-  height: 0.3,
-  weight: 0.3,
-  color: 'Red',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 479,
-  name: 'Rotom-Frost',
-  types: [ 'Electric', 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86 },
-  abilities: { '0': 'Levitate' },
-  height: 0.3,
-  weight: 0.3,
-  color: 'Red',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 479,
-  name: 'Rotom-Fan',
-  types: [ 'Electric', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86 },
-  abilities: { '0': 'Levitate' },
-  height: 0.3,
-  weight: 0.3,
-  color: 'Red',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 479,
-  name: 'Rotom-Mow',
-  types: [ 'Electric', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86 },
   abilities: { '0': 'Levitate' },
   height: 0.3,
   weight: 0.3,
@@ -7260,18 +5844,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 487,
-  name: 'Giratina-Origin',
-  types: [ 'Ghost', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 150, atk: 120, def: 100, spa: 120, spd: 100, spe: 90 },
-  abilities: { '0': 'Levitate' },
-  height: 6.9,
-  weight: 650,
-  color: 'Black',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 488,
   name: 'Cresselia',
   types: [ 'Psychic' ],
@@ -7332,18 +5904,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 492,
-  name: 'Shaymin-Sky',
-  types: [ 'Grass', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 103, def: 75, spa: 120, spd: 75, spe: 127 },
-  abilities: { '0': 'Serene Grace' },
-  height: 0.4,
-  weight: 5.2,
-  color: 'Green',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 493,
   name: 'Arceus',
   types: [ 'Normal' ],
@@ -7353,210 +5913,6 @@ exports.pokedex = [
   height: 3.2,
   weight: 320,
   color: 'White',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Bug',
-  types: [ 'Bug' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Dark',
-  types: [ 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Dragon',
-  types: [ 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Electric',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Fairy',
-  types: [ 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Fighting',
-  types: [ 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Fire',
-  types: [ 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Flying',
-  types: [ 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Ghost',
-  types: [ 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Grass',
-  types: [ 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Ground',
-  types: [ 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Ice',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Poison',
-  types: [ 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Psychic',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Rock',
-  types: [ 'Rock' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Steel',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 493,
-  name: 'Arceus-Water',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-  abilities: { '0': 'Multitype' },
-  height: 3.2,
-  weight: 320,
-  color: 'Gray',
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
@@ -8016,18 +6372,6 @@ exports.pokedex = [
   eggGroups: [ 'Fairy' ]
 }, 
 {
-  number: 531,
-  name: 'Audino-Mega',
-  types: [ 'Normal', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 103, atk: 60, def: 126, spa: 80, spd: 126, spe: 50 },
-  abilities: { '0': 'Healer' },
-  height: 1.5,
-  weight: 32,
-  color: 'White',
-  eggGroups: [ 'Fairy' ]
-}, 
-{
   number: 532,
   name: 'Timburr',
   types: [ 'Fighting' ],
@@ -8256,18 +6600,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 2' ]
 }, 
 {
-  number: 550,
-  name: 'Basculin-Blue-Striped',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 92, def: 65, spa: 80, spd: 55, spe: 98 },
-  abilities: { '0': 'Rock Head', '1': 'Adaptability', H: 'Mold Breaker' },
-  height: 1,
-  weight: 18,
-  color: 'Green',
-  eggGroups: [ 'Water 2' ]
-}, 
-{
   number: 551,
   name: 'Sandile',
   types: [ 'Ground', 'Dark' ],
@@ -8316,18 +6648,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 554,
-  name: 'Darumaka-Galar',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 90, def: 45, spa: 15, spd: 45, spe: 50 },
-  abilities: { '0': 'Hustle', H: 'Inner Focus' },
-  height: 0.7,
-  weight: 40,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 555,
   name: 'Darmanitan',
   types: [ 'Fire' ],
@@ -8337,42 +6657,6 @@ exports.pokedex = [
   height: 1.3,
   weight: 92.9,
   color: 'Red',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 555,
-  name: 'Darmanitan-Zen',
-  types: [ 'Fire', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 30, def: 105, spa: 140, spd: 105, spe: 55 },
-  abilities: { '0': 'Zen Mode' },
-  height: 1.3,
-  weight: 92.9,
-  color: 'Blue',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 555,
-  name: 'Darmanitan-Galar',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 140, def: 55, spa: 30, spd: 55, spe: 95 },
-  abilities: { '0': 'Gorilla Tactics', H: 'Zen Mode' },
-  height: 1.7,
-  weight: 120,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 555,
-  name: 'Darmanitan-Galar-Zen',
-  types: [ 'Ice', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 105, atk: 160, def: 55, spa: 30, spd: 55, spe: 135 },
-  abilities: { '0': 'Zen Mode' },
-  height: 1.7,
-  weight: 120,
-  color: 'White',
   eggGroups: [ 'Field' ]
 }, 
 {
@@ -8460,18 +6744,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral', 'Amorphous' ]
 }, 
 {
-  number: 562,
-  name: 'Yamask-Galar',
-  types: [ 'Ground', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 38, atk: 55, def: 85, spa: 30, spd: 65, spe: 30 },
-  abilities: { '0': 'Wandering Spirit' },
-  height: 0.5,
-  weight: 1.5,
-  color: 'Black',
-  eggGroups: [ 'Mineral', 'Amorphous' ]
-}, 
-{
   number: 563,
   name: 'Cofagrigus',
   types: [ 'Ghost' ],
@@ -8552,18 +6824,6 @@ exports.pokedex = [
   abilities: { '0': 'Stench', '1': 'Weak Armor', H: 'Aftermath' },
   height: 1.9,
   weight: 107.3,
-  color: 'Green',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
-  number: 569,
-  name: 'Garbodor-Gmax',
-  types: [ 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 95, def: 82, spa: 60, spd: 82, spe: 75 },
-  abilities: { '0': 'Stench', '1': 'Weak Armor', H: 'Aftermath' },
-  height: 0,
-  weight: 0,
   color: 'Green',
   eggGroups: [ 'Mineral' ]
 }, 
@@ -9156,18 +7416,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 1', 'Amorphous' ]
 }, 
 {
-  number: 618,
-  name: 'Stunfisk-Galar',
-  types: [ 'Ground', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 109, atk: 81, def: 99, spa: 66, spd: 84, spe: 32 },
-  abilities: { '0': 'Mimicry' },
-  height: 0.7,
-  weight: 20.5,
-  color: 'Green',
-  eggGroups: [ 'Water 1', 'Amorphous' ]
-}, 
-{
   number: 619,
   name: 'Mienfoo',
   types: [ 'Fighting' ],
@@ -9444,18 +7692,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 641,
-  name: 'Tornadus-Therian',
-  types: [ 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 79, atk: 100, def: 80, spa: 110, spd: 90, spe: 121 },
-  abilities: { '0': 'Regenerator' },
-  height: 1.4,
-  weight: 63,
-  color: 'Green',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 642,
   name: 'Thundurus',
   types: [ 'Electric', 'Flying' ],
@@ -9463,18 +7699,6 @@ exports.pokedex = [
   baseStats: { hp: 79, atk: 115, def: 70, spa: 125, spd: 80, spe: 111 },
   abilities: { '0': 'Prankster', H: 'Defiant' },
   height: 1.5,
-  weight: 61,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 642,
-  name: 'Thundurus-Therian',
-  types: [ 'Electric', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 79, atk: 105, def: 70, spa: 145, spd: 80, spe: 101 },
-  abilities: { '0': 'Volt Absorb' },
-  height: 3,
   weight: 61,
   color: 'Blue',
   eggGroups: [ 'Undiscovered' ]
@@ -9516,18 +7740,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 645,
-  name: 'Landorus-Therian',
-  types: [ 'Ground', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 89, atk: 145, def: 90, spa: 105, spd: 80, spe: 91 },
-  abilities: { '0': 'Intimidate' },
-  height: 1.3,
-  weight: 68,
-  color: 'Brown',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 646,
   name: 'Kyurem',
   types: [ 'Dragon', 'Ice' ],
@@ -9540,44 +7752,8 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 646,
-  name: 'Kyurem-Black',
-  types: [ 'Dragon', 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 125, atk: 170, def: 100, spa: 120, spd: 90, spe: 95 },
-  abilities: { '0': 'Teravolt' },
-  height: 3.3,
-  weight: 325,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 646,
-  name: 'Kyurem-White',
-  types: [ 'Dragon', 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 125, atk: 120, def: 90, spa: 170, spd: 100, spe: 95 },
-  abilities: { '0': 'Turboblaze' },
-  height: 3.6,
-  weight: 325,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 647,
   name: 'Keldeo',
-  types: [ 'Water', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 91, atk: 72, def: 90, spa: 129, spd: 90, spe: 108 },
-  abilities: { '0': 'Justified' },
-  height: 1.4,
-  weight: 48.5,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 647,
-  name: 'Keldeo-Resolute',
   types: [ 'Water', 'Fighting' ],
   genderRatio: undefined,
   baseStats: { hp: 91, atk: 72, def: 90, spa: 129, spd: 90, spe: 108 },
@@ -9600,68 +7776,8 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 648,
-  name: 'Meloetta-Pirouette',
-  types: [ 'Normal', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 128, def: 90, spa: 77, spd: 77, spe: 128 },
-  abilities: { '0': 'Serene Grace' },
-  height: 0.6,
-  weight: 6.5,
-  color: 'White',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 649,
   name: 'Genesect',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 71, atk: 120, def: 95, spa: 120, spd: 95, spe: 99 },
-  abilities: { '0': 'Download' },
-  height: 1.5,
-  weight: 82.5,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 649,
-  name: 'Genesect-Douse',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 71, atk: 120, def: 95, spa: 120, spd: 95, spe: 99 },
-  abilities: { '0': 'Download' },
-  height: 1.5,
-  weight: 82.5,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 649,
-  name: 'Genesect-Shock',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 71, atk: 120, def: 95, spa: 120, spd: 95, spe: 99 },
-  abilities: { '0': 'Download' },
-  height: 1.5,
-  weight: 82.5,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 649,
-  name: 'Genesect-Burn',
-  types: [ 'Bug', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 71, atk: 120, def: 95, spa: 120, spd: 95, spe: 99 },
-  abilities: { '0': 'Download' },
-  height: 1.5,
-  weight: 82.5,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 649,
-  name: 'Genesect-Chill',
   types: [ 'Bug', 'Steel' ],
   genderRatio: undefined,
   baseStats: { hp: 71, atk: 120, def: 95, spa: 120, spd: 95, spe: 99 },
@@ -9780,18 +7896,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 1' ]
 }, 
 {
-  number: 658,
-  name: 'Greninja-Ash',
-  types: [ 'Water', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 72, atk: 145, def: 67, spa: 153, spd: 71, spe: 132 },
-  abilities: { '0': 'Battle Bond' },
-  height: 1.5,
-  weight: 40,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 659,
   name: 'Bunnelby',
   types: [ 'Normal' ],
@@ -9888,30 +7992,6 @@ exports.pokedex = [
   eggGroups: [ 'Bug' ]
 }, 
 {
-  number: 666,
-  name: 'Vivillon-Fancy',
-  types: [ 'Bug', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 52, def: 50, spa: 90, spd: 50, spe: 89 },
-  abilities: { '0': 'Shield Dust', '1': 'Compound Eyes' },
-  height: 1.2,
-  weight: 17,
-  color: 'Black',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 666,
-  name: 'Vivillon-Pokeball',
-  types: [ 'Bug', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 52, def: 50, spa: 90, spd: 50, spe: 89 },
-  abilities: { '0': 'Shield Dust', '1': 'Compound Eyes' },
-  height: 1.2,
-  weight: 17,
-  color: 'Black',
-  eggGroups: [ 'Bug' ]
-}, 
-{
   number: 667,
   name: 'Litleo',
   types: [ 'Fire', 'Normal' ],
@@ -9958,18 +8038,6 @@ exports.pokedex = [
   weight: 0.9,
   color: 'White',
   eggGroups: [ 'Fairy' ]
-}, 
-{
-  number: 670,
-  name: 'Floette-Eternal',
-  types: [ 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 74, atk: 65, def: 67, spa: 125, spd: 128, spe: 92 },
-  abilities: { '0': 'Flower Veil' },
-  height: 0.2,
-  weight: 0.9,
-  color: 'White',
-  eggGroups: [ 'Undiscovered' ]
 }, 
 {
   number: 671,
@@ -10068,18 +8136,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 678,
-  name: 'Meowstic-F',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 74, atk: 48, def: 76, spa: 83, spd: 81, spe: 104 },
-  abilities: { '0': 'Keen Eye', '1': 'Infiltrator', H: 'Competitive' },
-  height: 0.6,
-  weight: 8.5,
-  color: 'White',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 679,
   name: 'Honedge',
   types: [ 'Steel', 'Ghost' ],
@@ -10109,18 +8165,6 @@ exports.pokedex = [
   types: [ 'Steel', 'Ghost' ],
   genderRatio: undefined,
   baseStats: { hp: 60, atk: 50, def: 140, spa: 50, spd: 140, spe: 60 },
-  abilities: { '0': 'Stance Change' },
-  height: 1.7,
-  weight: 53,
-  color: 'Brown',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
-  number: 681,
-  name: 'Aegislash-Blade',
-  types: [ 'Steel', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 140, def: 50, spa: 140, spd: 50, spe: 60 },
   abilities: { '0': 'Stance Change' },
   height: 1.7,
   weight: 53,
@@ -10476,42 +8520,6 @@ exports.pokedex = [
   eggGroups: [ 'Amorphous' ]
 }, 
 {
-  number: 710,
-  name: 'Pumpkaboo-Small',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 44, atk: 66, def: 70, spa: 44, spd: 55, spe: 56 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 0.3,
-  weight: 3.5,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 710,
-  name: 'Pumpkaboo-Large',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 54, atk: 66, def: 70, spa: 44, spd: 55, spe: 46 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 0.5,
-  weight: 7.5,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 710,
-  name: 'Pumpkaboo-Super',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 59, atk: 66, def: 70, spa: 44, spd: 55, spe: 41 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 0.8,
-  weight: 15,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
   number: 711,
   name: 'Gourgeist',
   types: [ 'Ghost', 'Grass' ],
@@ -10520,42 +8528,6 @@ exports.pokedex = [
   abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
   height: 0.9,
   weight: 12.5,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 711,
-  name: 'Gourgeist-Small',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 85, def: 122, spa: 58, spd: 75, spe: 99 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 0.7,
-  weight: 9.5,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 711,
-  name: 'Gourgeist-Large',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 95, def: 122, spa: 58, spd: 75, spe: 69 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 1.1,
-  weight: 14,
-  color: 'Brown',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 711,
-  name: 'Gourgeist-Super',
-  types: [ 'Ghost', 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 85, atk: 100, def: 122, spa: 58, spd: 75, spe: 54 },
-  abilities: { '0': 'Pickup', '1': 'Frisk', H: 'Insomnia' },
-  height: 1.7,
-  weight: 39,
   color: 'Brown',
   eggGroups: [ 'Amorphous' ]
 }, 
@@ -10644,30 +8616,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 718,
-  name: 'Zygarde-10%',
-  types: [ 'Dragon', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 54, atk: 100, def: 71, spa: 61, spd: 85, spe: 115 },
-  abilities: { '0': 'Aura Break', S: 'Power Construct' },
-  height: 1.2,
-  weight: 33.5,
-  color: 'Green',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 718,
-  name: 'Zygarde-Complete',
-  types: [ 'Dragon', 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 216, atk: 100, def: 121, spa: 91, spd: 95, spe: 85 },
-  abilities: { '0': 'Power Construct' },
-  height: 4.5,
-  weight: 610,
-  color: 'Green',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 719,
   name: 'Diancie',
   types: [ 'Rock', 'Fairy' ],
@@ -10680,18 +8628,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 719,
-  name: 'Diancie-Mega',
-  types: [ 'Rock', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 50, atk: 160, def: 110, spa: 160, spd: 110, spe: 110 },
-  abilities: { '0': 'Magic Bounce' },
-  height: 1.1,
-  weight: 27.8,
-  color: 'Pink',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 720,
   name: 'Hoopa',
   types: [ 'Psychic', 'Ghost' ],
@@ -10700,18 +8636,6 @@ exports.pokedex = [
   abilities: { '0': 'Magician' },
   height: 0.5,
   weight: 9,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 720,
-  name: 'Hoopa-Unbound',
-  types: [ 'Psychic', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 160, def: 60, spa: 170, spd: 130, spe: 80 },
-  abilities: { '0': 'Magician' },
-  height: 6.5,
-  weight: 490,
   color: 'Purple',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -10896,18 +8820,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 735,
-  name: 'Gumshoos-Totem',
-  types: [ 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 88, atk: 110, def: 60, spa: 55, spd: 60, spe: 45 },
-  abilities: { '0': 'Adaptability' },
-  height: 1.4,
-  weight: 60,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 736,
   name: 'Grubbin',
   types: [ 'Bug' ],
@@ -10940,18 +8852,6 @@ exports.pokedex = [
   abilities: { '0': 'Levitate' },
   height: 1.5,
   weight: 45,
-  color: 'Blue',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 738,
-  name: 'Vikavolt-Totem',
-  types: [ 'Bug', 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 77, atk: 70, def: 90, spa: 145, spd: 75, spe: 43 },
-  abilities: { '0': 'Levitate' },
-  height: 2.6,
-  weight: 147.5,
   color: 'Blue',
   eggGroups: [ 'Bug' ]
 }, 
@@ -10992,42 +8892,6 @@ exports.pokedex = [
   eggGroups: [ 'Flying' ]
 }, 
 {
-  number: 741,
-  name: 'Oricorio-Pom-Pom',
-  types: [ 'Electric', 'Flying' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 75, atk: 70, def: 70, spa: 98, spd: 70, spe: 93 },
-  abilities: { '0': 'Dancer' },
-  height: 0.6,
-  weight: 3.4,
-  color: 'Yellow',
-  eggGroups: [ 'Flying' ]
-}, 
-{
-  number: 741,
-  name: "Oricorio-Pa'u",
-  types: [ 'Psychic', 'Flying' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 75, atk: 70, def: 70, spa: 98, spd: 70, spe: 93 },
-  abilities: { '0': 'Dancer' },
-  height: 0.6,
-  weight: 3.4,
-  color: 'Pink',
-  eggGroups: [ 'Flying' ]
-}, 
-{
-  number: 741,
-  name: 'Oricorio-Sensu',
-  types: [ 'Ghost', 'Flying' ],
-  genderRatio: { M: 0.25, F: 0.75 },
-  baseStats: { hp: 75, atk: 70, def: 70, spa: 98, spd: 70, spe: 93 },
-  abilities: { '0': 'Dancer' },
-  height: 0.6,
-  weight: 3.4,
-  color: 'Purple',
-  eggGroups: [ 'Flying' ]
-}, 
-{
   number: 742,
   name: 'Cutiefly',
   types: [ 'Bug', 'Fairy' ],
@@ -11048,18 +8912,6 @@ exports.pokedex = [
   abilities: { '0': 'Honey Gather', '1': 'Shield Dust', H: 'Sweet Veil' },
   height: 0.2,
   weight: 0.5,
-  color: 'Yellow',
-  eggGroups: [ 'Bug', 'Fairy' ]
-}, 
-{
-  number: 743,
-  name: 'Ribombee-Totem',
-  types: [ 'Bug', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 55, def: 60, spa: 95, spd: 70, spe: 124 },
-  abilities: { '0': 'Sweet Veil' },
-  height: 0.4,
-  weight: 2,
   color: 'Yellow',
   eggGroups: [ 'Bug', 'Fairy' ]
 }, 
@@ -11093,30 +8945,6 @@ exports.pokedex = [
   eggGroups: [ 'Field' ]
 }, 
 {
-  number: 745,
-  name: 'Lycanroc-Midnight',
-  types: [ 'Rock' ],
-  genderRatio: undefined,
-  baseStats: { hp: 85, atk: 115, def: 75, spa: 55, spd: 75, spe: 82 },
-  abilities: { '0': 'Keen Eye', '1': 'Vital Spirit', H: 'No Guard' },
-  height: 1.1,
-  weight: 25,
-  color: 'Red',
-  eggGroups: [ 'Field' ]
-}, 
-{
-  number: 745,
-  name: 'Lycanroc-Dusk',
-  types: [ 'Rock' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 117, def: 65, spa: 55, spd: 65, spe: 110 },
-  abilities: { '0': 'Tough Claws' },
-  height: 0.8,
-  weight: 25,
-  color: 'Brown',
-  eggGroups: [ 'Field' ]
-}, 
-{
   number: 746,
   name: 'Wishiwashi',
   types: [ 'Water' ],
@@ -11125,18 +8953,6 @@ exports.pokedex = [
   abilities: { '0': 'Schooling' },
   height: 0.2,
   weight: 0.3,
-  color: 'Blue',
-  eggGroups: [ 'Water 2' ]
-}, 
-{
-  number: 746,
-  name: 'Wishiwashi-School',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 45, atk: 140, def: 130, spa: 140, spd: 135, spe: 30 },
-  abilities: { '0': 'Schooling' },
-  height: 8.2,
-  weight: 78.6,
   color: 'Blue',
   eggGroups: [ 'Water 2' ]
 }, 
@@ -11213,18 +9029,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 1', 'Bug' ]
 }, 
 {
-  number: 752,
-  name: 'Araquanid-Totem',
-  types: [ 'Water', 'Bug' ],
-  genderRatio: undefined,
-  baseStats: { hp: 68, atk: 70, def: 92, spa: 50, spd: 132, spe: 42 },
-  abilities: { '0': 'Water Bubble' },
-  height: 3.1,
-  weight: 217.5,
-  color: 'Green',
-  eggGroups: [ 'Water 1', 'Bug' ]
-}, 
-{
   number: 753,
   name: 'Fomantis',
   types: [ 'Grass' ],
@@ -11245,18 +9049,6 @@ exports.pokedex = [
   abilities: { '0': 'Leaf Guard', H: 'Contrary' },
   height: 0.9,
   weight: 18.5,
-  color: 'Pink',
-  eggGroups: [ 'Grass' ]
-}, 
-{
-  number: 754,
-  name: 'Lurantis-Totem',
-  types: [ 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 105, def: 90, spa: 80, spd: 90, spe: 45 },
-  abilities: { '0': 'Leaf Guard' },
-  height: 1.5,
-  weight: 58,
   color: 'Pink',
   eggGroups: [ 'Grass' ]
 }, 
@@ -11305,18 +9097,6 @@ exports.pokedex = [
   abilities: { '0': 'Corrosion', H: 'Oblivious' },
   height: 1.2,
   weight: 22.2,
-  color: 'Black',
-  eggGroups: [ 'Monster', 'Dragon' ]
-}, 
-{
-  number: 758,
-  name: 'Salazzle-Totem',
-  types: [ 'Poison', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 68, atk: 64, def: 60, spa: 111, spd: 60, spe: 117 },
-  abilities: { '0': 'Corrosion' },
-  height: 2.1,
-  weight: 81,
   color: 'Black',
   eggGroups: [ 'Monster', 'Dragon' ]
 }, 
@@ -11501,210 +9281,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 773,
-  name: 'Silvally-Bug',
-  types: [ 'Bug' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Dark',
-  types: [ 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Dragon',
-  types: [ 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Electric',
-  types: [ 'Electric' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Fairy',
-  types: [ 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Fighting',
-  types: [ 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Fire',
-  types: [ 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Flying',
-  types: [ 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Ghost',
-  types: [ 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Grass',
-  types: [ 'Grass' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Ground',
-  types: [ 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Ice',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Poison',
-  types: [ 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Psychic',
-  types: [ 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Rock',
-  types: [ 'Rock' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Steel',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 773,
-  name: 'Silvally-Water',
-  types: [ 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 95, def: 95, spa: 95, spd: 95, spe: 95 },
-  abilities: { '0': 'RKS System' },
-  height: 2.3,
-  weight: 100.5,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 774,
   name: 'Minior',
   types: [ 'Rock', 'Flying' ],
@@ -11714,18 +9290,6 @@ exports.pokedex = [
   height: 0.3,
   weight: 0.3,
   color: 'Red',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
-  number: 774,
-  name: 'Minior-Meteor',
-  types: [ 'Rock', 'Flying' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60 },
-  abilities: { '0': 'Shields Down' },
-  height: 0.3,
-  weight: 40,
-  color: 'Brown',
   eggGroups: [ 'Mineral' ]
 }, 
 {
@@ -11765,18 +9329,6 @@ exports.pokedex = [
   eggGroups: [ 'Field', 'Fairy' ]
 }, 
 {
-  number: 777,
-  name: 'Togedemaru-Totem',
-  types: [ 'Electric', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 98, def: 63, spa: 40, spd: 73, spe: 96 },
-  abilities: { '0': 'Sturdy' },
-  height: 0.6,
-  weight: 13,
-  color: 'Gray',
-  eggGroups: [ 'Field', 'Fairy' ]
-}, 
-{
   number: 778,
   name: 'Mimikyu',
   types: [ 'Ghost', 'Fairy' ],
@@ -11785,42 +9337,6 @@ exports.pokedex = [
   abilities: { '0': 'Disguise' },
   height: 0.2,
   weight: 0.7,
-  color: 'Yellow',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 778,
-  name: 'Mimikyu-Busted',
-  types: [ 'Ghost', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 90, def: 80, spa: 50, spd: 105, spe: 96 },
-  abilities: { '0': 'Disguise' },
-  height: 0.2,
-  weight: 0.7,
-  color: 'Yellow',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 778,
-  name: 'Mimikyu-Totem',
-  types: [ 'Ghost', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 90, def: 80, spa: 50, spd: 105, spe: 96 },
-  abilities: { '0': 'Disguise' },
-  height: 0.4,
-  weight: 2.8,
-  color: 'Yellow',
-  eggGroups: [ 'Amorphous' ]
-}, 
-{
-  number: 778,
-  name: 'Mimikyu-Busted-Totem',
-  types: [ 'Ghost', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 55, atk: 90, def: 80, spa: 50, spd: 105, spe: 96 },
-  abilities: { '0': 'Disguise' },
-  height: 0.4,
-  weight: 2.8,
   color: 'Yellow',
   eggGroups: [ 'Amorphous' ]
 }, 
@@ -11893,18 +9409,6 @@ exports.pokedex = [
   abilities: { '0': 'Bulletproof', '1': 'Soundproof', H: 'Overcoat' },
   height: 1.6,
   weight: 78.2,
-  color: 'Gray',
-  eggGroups: [ 'Dragon' ]
-}, 
-{
-  number: 784,
-  name: 'Kommo-o-Totem',
-  types: [ 'Dragon', 'Fighting' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 110, def: 125, spa: 100, spd: 105, spe: 85 },
-  abilities: { '0': 'Overcoat' },
-  height: 2.4,
-  weight: 207.5,
   color: 'Gray',
   eggGroups: [ 'Dragon' ]
 }, 
@@ -12101,42 +9605,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 800,
-  name: 'Necrozma-Dusk-Mane',
-  types: [ 'Psychic', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 97, atk: 157, def: 127, spa: 113, spd: 109, spe: 77 },
-  abilities: { '0': 'Prism Armor' },
-  height: 3.8,
-  weight: 460,
-  color: 'Yellow',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 800,
-  name: 'Necrozma-Dawn-Wings',
-  types: [ 'Psychic', 'Ghost' ],
-  genderRatio: undefined,
-  baseStats: { hp: 97, atk: 113, def: 109, spa: 157, spd: 127, spe: 77 },
-  abilities: { '0': 'Prism Armor' },
-  height: 4.2,
-  weight: 350,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 800,
-  name: 'Necrozma-Ultra',
-  types: [ 'Psychic', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 97, atk: 167, def: 97, spa: 167, spd: 97, spe: 129 },
-  abilities: { '0': 'Neuroforce' },
-  height: 7.5,
-  weight: 230,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 801,
   name: 'Magearna',
   types: [ 'Steel', 'Fairy' ],
@@ -12146,18 +9614,6 @@ exports.pokedex = [
   height: 1,
   weight: 80.5,
   color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 801,
-  name: 'Magearna-Original',
-  types: [ 'Steel', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 80, atk: 95, def: 115, spa: 130, spd: 115, spe: 65 },
-  abilities: { '0': 'Soul-Heart' },
-  height: 1,
-  weight: 80.5,
-  color: 'Red',
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
@@ -12253,18 +9709,6 @@ exports.pokedex = [
   abilities: { '0': 'Iron Fist' },
   height: 2.5,
   weight: 800,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 809,
-  name: 'Melmetal-Gmax',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 135, atk: 143, def: 143, spa: 80, spd: 65, spe: 34 },
-  abilities: { '0': 'Iron Fist' },
-  height: 0,
-  weight: 0,
   color: 'Gray',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -12437,18 +9881,6 @@ exports.pokedex = [
   eggGroups: [ 'Flying' ]
 }, 
 {
-  number: 823,
-  name: 'Corviknight-Gmax',
-  types: [ 'Flying', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 98, atk: 87, def: 105, spa: 53, spd: 85, spe: 67 },
-  abilities: { '0': 'Pressure', '1': 'Unnerve', H: 'Mirror Armor' },
-  height: 14,
-  weight: 0,
-  color: 'Purple',
-  eggGroups: [ 'Flying' ]
-}, 
-{
   number: 824,
   name: 'Blipbug',
   types: [ 'Bug' ],
@@ -12481,18 +9913,6 @@ exports.pokedex = [
   abilities: { '0': 'Swarm', '1': 'Frisk', H: 'Telepathy' },
   height: 0.4,
   weight: 40.8,
-  color: 'Red',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 826,
-  name: 'Orbeetle-Gmax',
-  types: [ 'Bug', 'Psychic' ],
-  genderRatio: undefined,
-  baseStats: { hp: 60, atk: 45, def: 110, spa: 80, spd: 120, spe: 90 },
-  abilities: { '0': 'Swarm', '1': 'Frisk', H: 'Telepathy' },
-  height: 0,
-  weight: 0,
   color: 'Red',
   eggGroups: [ 'Bug' ]
 }, 
@@ -12593,18 +10013,6 @@ exports.pokedex = [
   eggGroups: [ 'Monster', 'Water 1' ]
 }, 
 {
-  number: 834,
-  name: 'Drednaw-Gmax',
-  types: [ 'Water', 'Rock' ],
-  genderRatio: undefined,
-  baseStats: { hp: 90, atk: 115, def: 90, spa: 48, spd: 68, spe: 74 },
-  abilities: { '0': 'Strong Jaw', '1': 'Shell Armor', H: 'Swift Swim' },
-  height: 24,
-  weight: 0,
-  color: 'Green',
-  eggGroups: [ 'Monster', 'Water 1' ]
-}, 
-{
   number: 835,
   name: 'Yamper',
   types: [ 'Electric' ],
@@ -12665,18 +10073,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral' ]
 }, 
 {
-  number: 839,
-  name: 'Coalossal-Gmax',
-  types: [ 'Rock', 'Fire' ],
-  genderRatio: undefined,
-  baseStats: { hp: 110, atk: 80, def: 120, spa: 80, spd: 90, spe: 30 },
-  abilities: { '0': 'Steam Engine', '1': 'Flame Body', H: 'Flash Fire' },
-  height: 0,
-  weight: 0,
-  color: 'Black',
-  eggGroups: [ 'Mineral' ]
-}, 
-{
   number: 840,
   name: 'Applin',
   types: [ 'Grass', 'Dragon' ],
@@ -12701,18 +10097,6 @@ exports.pokedex = [
   eggGroups: [ 'Grass', 'Dragon' ]
 }, 
 {
-  number: 841,
-  name: 'Flapple-Gmax',
-  types: [ 'Grass', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 110, def: 80, spa: 95, spd: 60, spe: 70 },
-  abilities: { '0': 'Ripen', '1': 'Gluttony', H: 'Hustle' },
-  height: 0,
-  weight: 0,
-  color: 'Green',
-  eggGroups: [ 'Grass', 'Dragon' ]
-}, 
-{
   number: 842,
   name: 'Appletun',
   types: [ 'Grass', 'Dragon' ],
@@ -12721,18 +10105,6 @@ exports.pokedex = [
   abilities: { '0': 'Ripen', '1': 'Gluttony', H: 'Thick Fat' },
   height: 0.4,
   weight: 13,
-  color: 'Green',
-  eggGroups: [ 'Grass', 'Dragon' ]
-}, 
-{
-  number: 842,
-  name: 'Appletun-Gmax',
-  types: [ 'Grass', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 110, atk: 85, def: 80, spa: 100, spd: 80, spe: 30 },
-  abilities: { '0': 'Ripen', '1': 'Gluttony', H: 'Thick Fat' },
-  height: 0,
-  weight: 0,
   color: 'Green',
   eggGroups: [ 'Grass', 'Dragon' ]
 }, 
@@ -12761,44 +10133,8 @@ exports.pokedex = [
   eggGroups: [ 'Field', 'Dragon' ]
 }, 
 {
-  number: 844,
-  name: 'Sandaconda-Gmax',
-  types: [ 'Ground' ],
-  genderRatio: undefined,
-  baseStats: { hp: 72, atk: 107, def: 125, spa: 65, spd: 70, spe: 71 },
-  abilities: { '0': 'Sand Spit', '1': 'Shed Skin', H: 'Sand Veil' },
-  height: 0,
-  weight: 0,
-  color: 'Green',
-  eggGroups: [ 'Field', 'Dragon' ]
-}, 
-{
   number: 845,
   name: 'Cramorant',
-  types: [ 'Flying', 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 85, def: 55, spa: 85, spd: 95, spe: 85 },
-  abilities: { '0': 'Gulp Missile' },
-  height: 0.8,
-  weight: 18,
-  color: 'Blue',
-  eggGroups: [ 'Water 1', 'Flying' ]
-}, 
-{
-  number: 845,
-  name: 'Cramorant-Gulping',
-  types: [ 'Flying', 'Water' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 85, def: 55, spa: 85, spd: 95, spe: 85 },
-  abilities: { '0': 'Gulp Missile' },
-  height: 0.8,
-  weight: 18,
-  color: 'Blue',
-  eggGroups: [ 'Water 1', 'Flying' ]
-}, 
-{
-  number: 845,
-  name: 'Cramorant-Gorging',
   types: [ 'Flying', 'Water' ],
   genderRatio: undefined,
   baseStats: { hp: 70, atk: 85, def: 55, spa: 85, spd: 95, spe: 85 },
@@ -12857,42 +10193,6 @@ exports.pokedex = [
   eggGroups: [ 'Human-Like' ]
 }, 
 {
-  number: 849,
-  name: 'Toxtricity-Low-Key',
-  types: [ 'Electric', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 98, def: 70, spa: 114, spd: 70, spe: 75 },
-  abilities: { '0': 'Punk Rock', '1': 'Minus', H: 'Technician' },
-  height: 1.6,
-  weight: 40,
-  color: 'Purple',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
-  number: 849,
-  name: 'Toxtricity-Gmax',
-  types: [ 'Electric', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 98, def: 70, spa: 114, spd: 70, spe: 75 },
-  abilities: { '0': 'Punk Rock', '1': 'Plus', H: 'Technician' },
-  height: 0,
-  weight: 0,
-  color: 'Purple',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
-  number: 849,
-  name: 'Toxtricity-Low-Key-Gmax',
-  types: [ 'Electric', 'Poison' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 98, def: 70, spa: 114, spd: 70, spe: 75 },
-  abilities: { '0': 'Punk Rock', '1': 'Minus', H: 'Technician' },
-  height: 0,
-  weight: 0,
-  color: 'Purple',
-  eggGroups: [ 'Human-Like' ]
-}, 
-{
   number: 850,
   name: 'Sizzlipede',
   types: [ 'Fire', 'Bug' ],
@@ -12913,18 +10213,6 @@ exports.pokedex = [
   abilities: { '0': 'Flash Fire', '1': 'White Smoke', H: 'Flame Body' },
   height: 3,
   weight: 120,
-  color: 'Red',
-  eggGroups: [ 'Bug' ]
-}, 
-{
-  number: 851,
-  name: 'Centiskorch-Gmax',
-  types: [ 'Fire', 'Bug' ],
-  genderRatio: undefined,
-  baseStats: { hp: 100, atk: 115, def: 65, spa: 90, spd: 90, spe: 65 },
-  abilities: { '0': 'Flash Fire', '1': 'White Smoke', H: 'Flame Body' },
-  height: 0,
-  weight: 0,
   color: 'Red',
   eggGroups: [ 'Bug' ]
 }, 
@@ -13013,18 +10301,6 @@ exports.pokedex = [
   eggGroups: [ 'Fairy' ]
 }, 
 {
-  number: 858,
-  name: 'Hatterene-Gmax',
-  types: [ 'Psychic', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 57, atk: 90, def: 95, spa: 136, spd: 103, spe: 29 },
-  abilities: { '0': 'Healer', '1': 'Anticipation', H: 'Magic Bounce' },
-  height: 0,
-  weight: 0,
-  color: 'Pink',
-  eggGroups: [ 'Fairy' ]
-}, 
-{
   number: 859,
   name: 'Impidimp',
   types: [ 'Dark', 'Fairy' ],
@@ -13057,18 +10333,6 @@ exports.pokedex = [
   abilities: { '0': 'Prankster', '1': 'Frisk', H: 'Pickpocket' },
   height: 1.5,
   weight: 61,
-  color: 'Purple',
-  eggGroups: [ 'Fairy', 'Human-Like' ]
-}, 
-{
-  number: 861,
-  name: 'Grimmsnarl-Gmax',
-  types: [ 'Dark', 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 95, atk: 120, def: 65, spa: 95, spd: 75, spe: 60 },
-  abilities: { '0': 'Prankster', '1': 'Frisk', H: 'Pickpocket' },
-  height: 0,
-  weight: 0,
   color: 'Purple',
   eggGroups: [ 'Fairy', 'Human-Like' ]
 }, 
@@ -13169,18 +10433,6 @@ exports.pokedex = [
   eggGroups: [ 'Fairy', 'Amorphous' ]
 }, 
 {
-  number: 869,
-  name: 'Alcremie-Gmax',
-  types: [ 'Fairy' ],
-  genderRatio: undefined,
-  baseStats: { hp: 65, atk: 60, def: 75, spa: 110, spd: 121, spe: 64 },
-  abilities: { '0': 'Sweet Veil', H: 'Aroma Veil' },
-  height: 30,
-  weight: 0,
-  color: 'White',
-  eggGroups: [ 'Fairy', 'Amorphous' ]
-}, 
-{
   number: 870,
   name: 'Falinks',
   types: [ 'Fighting' ],
@@ -13253,18 +10505,6 @@ exports.pokedex = [
   eggGroups: [ 'Water 1', 'Field' ]
 }, 
 {
-  number: 875,
-  name: 'Eiscue-Noice',
-  types: [ 'Ice' ],
-  genderRatio: undefined,
-  baseStats: { hp: 75, atk: 80, def: 70, spa: 65, spd: 50, spe: 130 },
-  abilities: { '0': 'Ice Face' },
-  height: 1.4,
-  weight: 89,
-  color: 'Blue',
-  eggGroups: [ 'Water 1', 'Field' ]
-}, 
-{
   number: 876,
   name: 'Indeedee',
   types: [ 'Psychic', 'Normal' ],
@@ -13277,32 +10517,8 @@ exports.pokedex = [
   eggGroups: [ 'Fairy' ]
 }, 
 {
-  number: 876,
-  name: 'Indeedee-F',
-  types: [ 'Psychic', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 55, def: 65, spa: 95, spd: 105, spe: 85 },
-  abilities: { '0': 'Own Tempo', '1': 'Synchronize', H: 'Psychic Surge' },
-  height: 0.9,
-  weight: 28,
-  color: 'Purple',
-  eggGroups: [ 'Fairy' ]
-}, 
-{
   number: 877,
   name: 'Morpeko',
-  types: [ 'Electric', 'Dark' ],
-  genderRatio: undefined,
-  baseStats: { hp: 58, atk: 95, def: 58, spa: 70, spd: 58, spe: 97 },
-  abilities: { '0': 'Hunger Switch' },
-  height: 0.3,
-  weight: 3,
-  color: 'Yellow',
-  eggGroups: [ 'Field', 'Fairy' ]
-}, 
-{
-  number: 877,
-  name: 'Morpeko-Hangry',
   types: [ 'Electric', 'Dark' ],
   genderRatio: undefined,
   baseStats: { hp: 58, atk: 95, def: 58, spa: 70, spd: 58, spe: 97 },
@@ -13333,18 +10549,6 @@ exports.pokedex = [
   abilities: { '0': 'Sheer Force', H: 'Heavy Metal' },
   height: 3,
   weight: 650,
-  color: 'Green',
-  eggGroups: [ 'Field', 'Mineral' ]
-}, 
-{
-  number: 879,
-  name: 'Copperajah-Gmax',
-  types: [ 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 122, atk: 130, def: 69, spa: 80, spd: 69, spe: 30 },
-  abilities: { '0': 'Sheer Force', H: 'Heavy Metal' },
-  height: 0,
-  weight: 0,
   color: 'Green',
   eggGroups: [ 'Field', 'Mineral' ]
 }, 
@@ -13409,18 +10613,6 @@ exports.pokedex = [
   eggGroups: [ 'Mineral', 'Dragon' ]
 }, 
 {
-  number: 884,
-  name: 'Duraludon-Gmax',
-  types: [ 'Steel', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 70, atk: 95, def: 115, spa: 120, spd: 50, spe: 85 },
-  abilities: { '0': 'Light Metal', '1': 'Heavy Metal', H: 'Stalwart' },
-  height: 0,
-  weight: 0,
-  color: 'White',
-  eggGroups: [ 'Mineral', 'Dragon' ]
-}, 
-{
   number: 885,
   name: 'Dreepy',
   types: [ 'Dragon', 'Ghost' ],
@@ -13469,18 +10661,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 888,
-  name: 'Zacian-Crowned',
-  types: [ 'Fairy', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 92, atk: 170, def: 115, spa: 80, spd: 115, spe: 148 },
-  abilities: { '0': 'Intrepid Sword' },
-  height: 2.8,
-  weight: 355,
-  color: 'Blue',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 889,
   name: 'Zamazenta',
   types: [ 'Fighting' ],
@@ -13489,18 +10669,6 @@ exports.pokedex = [
   abilities: { '0': 'Dauntless Shield' },
   height: 2.9,
   weight: 210,
-  color: 'Red',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 889,
-  name: 'Zamazenta-Crowned',
-  types: [ 'Fighting', 'Steel' ],
-  genderRatio: undefined,
-  baseStats: { hp: 92, atk: 130, def: 145, spa: 80, spd: 145, spe: 128 },
-  abilities: { '0': 'Dauntless Shield' },
-  height: 2.9,
-  weight: 785,
   color: 'Red',
   eggGroups: [ 'Undiscovered' ]
 }, 
@@ -13517,18 +10685,6 @@ exports.pokedex = [
   eggGroups: [ 'Undiscovered' ]
 }, 
 {
-  number: 890,
-  name: 'Eternatus-Eternamax',
-  types: [ 'Poison', 'Dragon' ],
-  genderRatio: undefined,
-  baseStats: { hp: 255, atk: 115, def: 250, spa: 125, spd: 250, spe: 130 },
-  abilities: { '0': 'Pressure' },
-  height: 100,
-  weight: 0,
-  color: 'Purple',
-  eggGroups: [ 'Undiscovered' ]
-}, 
-{
   number: 0,
   name: 'Missingno.',
   types: [ 'Bird', 'Normal' ],
@@ -13539,5 +10695,5 @@ exports.pokedex = [
   weight: 1590.8,
   color: 'Gray',
   eggGroups: [ 'Undiscovered' ]
-} 
+}, 
 ]
