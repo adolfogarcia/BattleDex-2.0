@@ -1,4 +1,4 @@
-exports.pokedex = [ 
+exports.pokedex = [
 {
   number: 1,
   name: 'Bulbasaur',
@@ -10683,17 +10683,5 @@ exports.pokedex = [
   weight: 950,
   color: 'Purple',
   eggGroups: [ 'Undiscovered' ]
-}, 
-{
-  number: 0,
-  name: 'Missingno.',
-  types: [ 'Bird', 'Normal' ],
-  genderRatio: undefined,
-  baseStats: { hp: 33, atk: 136, def: 0, spa: 6, spd: 6, spe: 29 },
-  abilities: { '0': '' },
-  height: 3,
-  weight: 1590.8,
-  color: 'Gray',
-  eggGroups: [ 'Undiscovered' ]
-}, 
+}
 ]
