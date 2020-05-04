@@ -1,6 +1,6 @@
-import {  gql } from 'apollo-server';
+const {  gql } =  require('apollo-server');
 
-export default  gql`
+exports.schema = gql`
 
     scalar JSON
 
@@ -13,11 +13,13 @@ export default  gql`
         types: [String]
         egg_groups: [String]
         gender_ratio: JSON
-        egg_groups: JSON
+        abilities: JSON
         base_stats: JSON
     }
 
     type Query{
         allPokemon: [Pokemon]
+        pokemonByType(types: [String]): [Pokemon]
+        
     }
 `;
