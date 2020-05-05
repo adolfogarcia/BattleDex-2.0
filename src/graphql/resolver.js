@@ -8,15 +8,12 @@ exports.resolvers = {
             return psql.manyOrNone(query);
         },
         pokemonByType: (_, args, ctx) => {
-            const query = 'SELECT * from pokemon';
-            return psql.manyOrNone(query).then(pkmns => pkmns.filter(pkmn => {
-                if(args.types.length === 1){
-                    return pkmn.types.includes(args.types[0]);
-                }
-                else{
-                    return pkmn.types.includes(args.types[0]) || pkmn.types.includes(args.types[1]);
-                }
-            }));
+            /**args.types shall always be Title Case; guaranteed by react component sending the query */
+
+            /***args.types is contained by types column */
+            const query = 'SELECT * from pokemon where $1::varchar[] <@ types';
+            const queryArgs=[args.types];
+            return psql.manyOrNone(query, queryArgs)
         }
     }
 }
