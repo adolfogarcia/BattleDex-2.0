@@ -20,6 +20,6 @@ exports.schema = gql`
     type Query{
         allPokemon: [Pokemon]
         pokemonByType(types: [String]): [Pokemon]
-        
+        pokemonByColor(color: String!): [Pokemon]
     }
 `;
