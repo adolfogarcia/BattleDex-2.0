@@ -2,8 +2,15 @@ import React from 'react';
 import '../App.css';
 import RingLoader from 'react-spinners/RingLoader';
 
-function App() {
-  return (
+class App extends React.Component {
+  constructor(){
+    super();
+  }
+
+
+  
+  render(){
+    return (
     <div className="App">
       <header className="App-header">
         <RingLoader
@@ -15,7 +22,7 @@ function App() {
         </p>
       </header>
     </div>
-  );
+  );}
 }
 
 export default App;
