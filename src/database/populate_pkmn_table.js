@@ -22,14 +22,3 @@ client.connect(err => {
 
 
 
-// pokedex.forEach(pkmn => {
-//   let values = Object.values(pkmn);
-//  // console.log(values)
-//   client.query(queryString, values, (err,res) => {
-//     if (err) throw err
-//     console.log(res)
-//   })
-// })
-
-
-
