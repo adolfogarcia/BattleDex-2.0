@@ -1,3 +1,8 @@
+/**
+ * takes the old file and converts it with one w/o repeat pokemon (forms, megas, regional variants)
+ * just all 890 pokemon - including missingno (so 891)
+ */
+
 const pokedex = require('./pokedex').Pokedex;
 const fs = require('fs');
 
