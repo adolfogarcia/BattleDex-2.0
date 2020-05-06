@@ -21,5 +21,7 @@ exports.schema = gql`
         allPokemon: [Pokemon]
         pokemonByType(types: [String]): [Pokemon]
         pokemonByColor(color: String!): [Pokemon]
+        pokemonByNo(no: Int!): Pokemon
+        pokemonByName(name: String!): Pokemon
     }
 `;
