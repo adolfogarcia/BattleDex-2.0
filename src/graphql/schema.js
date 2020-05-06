@@ -17,11 +17,35 @@ exports.schema = gql`
         base_stats: JSON
     }
 
+    type Move{
+        move_id: String
+        move_name: String
+        move_no: Int
+        base_power: String
+        accuracy: String
+        pp: Int
+        category: String
+        description: String
+        short_desc: String
+        priority: Int
+        crit_ratio: Int
+        isZ: Boolean
+        secondary_effects: JSON
+        flags: JSON
+        type: String
+        contest_type: String
+        target: String
+        boosts: JSON
+        zmove_effects: String
+    }
+
     type Query{
         allPokemon: [Pokemon]
         pokemonByType(types: [String]): [Pokemon]
         pokemonByColor(color: String!): [Pokemon]
         pokemonByNo(no: Int!): Pokemon
         pokemonByName(name: String!): Pokemon
+
+        allMoves: [Move]
     }
 `;
