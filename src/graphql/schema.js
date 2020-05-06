@@ -47,5 +47,6 @@ exports.schema = gql`
         pokemonByName(name: String!): Pokemon
 
         allMoves: [Move]
+        movesByType(type: String!): [Move]
     }
 `;
