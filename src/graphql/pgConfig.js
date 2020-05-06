@@ -1,3 +1,4 @@
+////   DO NOT COMMIT, CONTAINS SENSITIVE INFO (OR COMMIT WITHOUT PASSWORD)
 const pgPromise =  require('pg-promise');
 
 const config = {
