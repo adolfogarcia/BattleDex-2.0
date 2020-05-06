@@ -4,8 +4,8 @@ const config = {
     host: "localhost",
     port: 5432,
     database: "pokedex",
-    user: "postgres",
-    password: "cocopansa"
+    user: "",
+    password: ""
 }
 
 const pgp = pgPromise({}); // empty pgPromise instance
