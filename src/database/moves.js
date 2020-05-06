@@ -21475,4 +21475,4 @@ let BattleMovedex = {
 	},
 };
 
-exports.moves = BattleMovedex;
+exports.BattleMovedex = BattleMovedex;
