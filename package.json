@@ -14,9 +14,11 @@
     "pg": "^7.18.2",
     "pg-promise": "^10.5.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
-    "react-spinners": "^0.8.3"
+    "react-spinners": "^0.8.3",
+    "styled-components": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
