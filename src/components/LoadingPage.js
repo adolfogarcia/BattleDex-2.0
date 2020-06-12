@@ -6,7 +6,7 @@ export default function LoadingPage(){
     return(
         <div className="Loading-page">
             <RingLoader
-            size='150'
+            size='150px'
             color='#FF0000'
             />
             <p>
