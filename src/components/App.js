@@ -3,6 +3,12 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoadingPage from './LoadingPage';
 import HomePage from './HomePage';
+import { ApolloProvider } from '@apollo/react-hooks';
+import ApolloClient from 'apollo-boost';
+
+const client = new ApolloClient({
+  uri: 'http://localhost:4000/',
+});
 
 class App extends React.Component {
   constructor(){
@@ -24,12 +30,14 @@ class App extends React.Component {
   }
 
   render(){
-    //let Page = this.state.loading? LoadingPage : PokedexPage;
+    let Page = this.state.loading? LoadingPage : HomePage;
 
     return (
-    <div className="App">
-      <HomePage/>
-    </div>
+      <ApolloProvider client={client}>
+        <div className="App">
+          <Page/>
+        </div>
+      </ApolloProvider>
   );}
 }
 

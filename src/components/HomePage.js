@@ -12,7 +12,7 @@ export default class HomePage extends React.Component {
     return (
         <Jumbotron fluid style={{ height: "40vh", margin: "10px", border: "1px solid black",position: "relative"}}>
             <Container fluid>
-                <h1 style={{textAlign:"left", padding: "10px"}}>Pokedex</h1>
+                <h1 style={{textAlign:"left", padding: "10px"}}>BattleDex</h1>
             </Container>
             <HomeSearchBar/>
         </Jumbotron>
