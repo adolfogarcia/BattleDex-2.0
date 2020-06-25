@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import AsyncSelect from 'react-select/async';
 import { useQuery } from '@apollo/react-hooks';
 import { gql } from "apollo-boost";
@@ -12,7 +12,6 @@ const GET_ALL_POKEMON = gql`
 `;
 
 export default function HomeSearchBar () {
-    const [maxOptions, setMaxOptions] = useState(100);
     const { loading, error, data } = useQuery(GET_ALL_POKEMON);
 
     if (loading) return <p style={{ bottom: "0px", right:"25vw", padding:"10px", width:"50vw", position: "absolute"}}>Loading Pokemon info...</p>;
